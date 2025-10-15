@@ -17,9 +17,5 @@ namespace CapaNegocio
             return cdDashboard.ObtenerDatosDashboard();
         }
 
-        public String prueba()
-        {
-            return "";
-        }
     }
 }
