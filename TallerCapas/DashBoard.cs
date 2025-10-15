@@ -4,11 +4,11 @@ using System.Data;
 
 namespace TallerCapas
 {
-    public partial class Form1 : Form
+    public partial class DashBoard : Form
     {
         CNDashboard cnDashboard = new CNDashboard();
 
-        public Form1()
+        public DashBoard()
         {
             InitializeComponent();
         }
