@@ -1,6 +1,6 @@
 ﻿namespace TallerCapas
 {
-    partial class Form1
+    partial class DashBoard
     {
         /// <summary>
         ///  Required designer variable.
