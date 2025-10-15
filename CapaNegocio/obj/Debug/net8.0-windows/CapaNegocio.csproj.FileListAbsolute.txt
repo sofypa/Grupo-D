@@ -1,0 +1,36 @@
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\bin\Debug\net8.0-windows\CapaNegocio.deps.json
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\bin\Debug\net8.0-windows\CapaNegocio.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\bin\Debug\net8.0-windows\CapaNegocio.pdb
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\bin\Debug\net8.0-windows\CapaDatos.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\bin\Debug\net8.0-windows\CapaEntidad.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\bin\Debug\net8.0-windows\CapaDatos.pdb
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\bin\Debug\net8.0-windows\CapaEntidad.pdb
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.AssemblyInfoInputs.cache
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.AssemblyInfo.cs
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNego.81B9D119.Up2Date
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\refint\CapaNegocio.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.pdb
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\ref\CapaNegocio.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.UserControl1.resources
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.csproj.GenerateResource.cache
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.AssemblyInfoInputs.cache
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.AssemblyInfo.cs
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\refint\CapaNegocio.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.pdb
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\bin\Debug\net8.0-windows\CapaNegocio.deps.json
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\bin\Debug\net8.0-windows\CapaNegocio.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\bin\Debug\net8.0-windows\CapaNegocio.pdb
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\bin\Debug\net8.0-windows\CapaDatos.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\bin\Debug\net8.0-windows\CapaEntidad.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\bin\Debug\net8.0-windows\CapaDatos.pdb
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\bin\Debug\net8.0-windows\CapaEntidad.pdb
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\CapaNego.81B9D119.Up2Date
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaNegocio\obj\Debug\net8.0-windows\ref\CapaNegocio.dll

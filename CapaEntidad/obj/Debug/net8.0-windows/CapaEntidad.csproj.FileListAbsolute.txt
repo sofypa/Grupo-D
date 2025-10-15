@@ -1,0 +1,22 @@
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaEntidad\bin\Debug\net8.0-windows\CapaEntidad.deps.json
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaEntidad\bin\Debug\net8.0-windows\CapaEntidad.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaEntidad\bin\Debug\net8.0-windows\CapaEntidad.pdb
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.AssemblyInfoInputs.cache
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.AssemblyInfo.cs
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaEntidad\obj\Debug\net8.0-windows\refint\CapaEntidad.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.pdb
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPAIII\TallerCapas\CapaEntidad\obj\Debug\net8.0-windows\ref\CapaEntidad.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaEntidad\bin\Debug\net8.0-windows\CapaEntidad.deps.json
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaEntidad\bin\Debug\net8.0-windows\CapaEntidad.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaEntidad\bin\Debug\net8.0-windows\CapaEntidad.pdb
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.AssemblyInfoInputs.cache
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.AssemblyInfo.cs
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaEntidad\obj\Debug\net8.0-windows\refint\CapaEntidad.dll
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.pdb
+C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaEntidad\obj\Debug\net8.0-windows\ref\CapaEntidad.dll
