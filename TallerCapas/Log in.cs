@@ -28,7 +28,7 @@ namespace Proyecto
         {
 
         }
-        
+
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -38,6 +38,12 @@ namespace Proyecto
             this.Hide();
         }
 
+        private void botonLogin_Click(object sender, EventArgs e)
+        {
+            TallerCapas.DashBoard ventana = new TallerCapas.DashBoard();
+            ventana.Show();
+            this.Hide();
+        }
     }
 }
 

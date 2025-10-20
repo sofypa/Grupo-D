@@ -30,3 +30,21 @@ C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\C
 C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaDatos\bin\Debug\net8.0-windows\CapaEntidad.pdb
 C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.csproj.Up2Date
 C:\Users\sofie\OneDrive\Documentos\Sofia\3uni\2do semestre\HPA III\TallerCapas\CapaDatos\obj\Debug\net8.0-windows\ref\CapaDatos.dll
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.UserControl1.resources
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.csproj.GenerateResource.cache
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.AssemblyInfo.cs
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.sourcelink.json
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.dll
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\obj\Debug\net8.0-windows\refint\CapaDatos.dll
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.pdb
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\bin\Debug\net8.0-windows\CapaDatos.deps.json
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\bin\Debug\net8.0-windows\CapaDatos.dll
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\bin\Debug\net8.0-windows\CapaDatos.pdb
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\bin\Debug\net8.0-windows\CapaEntidad.dll
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\bin\Debug\net8.0-windows\CapaEntidad.pdb
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.csproj.Up2Date
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaDatos\obj\Debug\net8.0-windows\ref\CapaDatos.dll

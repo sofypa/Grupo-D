@@ -136,5 +136,12 @@ namespace Prueba
         {
 
         }
+
+        private void btnVolverDashboard_Click(object sender, EventArgs e)
+        {
+            TallerCapas.DashBoard ventana = new TallerCapas.DashBoard();
+            ventana.Show();
+            this.Hide();
+        }
     }
 }

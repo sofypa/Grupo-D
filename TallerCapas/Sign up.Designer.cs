@@ -36,7 +36,7 @@
             textBox3 = new TextBox();
             label4 = new Label();
             textBox4 = new TextBox();
-            button1 = new Button();
+            botonSignup = new Button();
             label5 = new Label();
             pictureBox1 = new PictureBox();
             label6 = new Label();
@@ -113,18 +113,19 @@
             textBox4.TabIndex = 1;
             textBox4.UseSystemPasswordChar = true;
             // 
-            // button1
+            // botonSignup
             // 
-            button1.BackColor = Color.FromArgb(128, 64, 0);
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Impact", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(326, 379);
-            button1.Name = "button1";
-            button1.Size = new Size(188, 50);
-            button1.TabIndex = 9;
-            button1.Text = "CREAR CUENTA";
-            button1.UseVisualStyleBackColor = false;
+            botonSignup.BackColor = Color.FromArgb(128, 64, 0);
+            botonSignup.FlatStyle = FlatStyle.Flat;
+            botonSignup.Font = new Font("Impact", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            botonSignup.ForeColor = Color.White;
+            botonSignup.Location = new Point(326, 379);
+            botonSignup.Name = "botonSignup";
+            botonSignup.Size = new Size(188, 50);
+            botonSignup.TabIndex = 9;
+            botonSignup.Text = "CREAR CUENTA";
+            botonSignup.UseVisualStyleBackColor = false;
+            botonSignup.Click += botonSignup_Click;
             // 
             // label5
             // 
@@ -169,7 +170,7 @@
             ClientSize = new Size(824, 595);
             Controls.Add(label6);
             Controls.Add(label5);
-            Controls.Add(button1);
+            Controls.Add(botonSignup);
             Controls.Add(textBox4);
             Controls.Add(label4);
             Controls.Add(textBox3);
@@ -196,7 +197,7 @@
         private TextBox textBox3;
         private Label label4;
         private TextBox textBox4;
-        private Button button1;
+        private Button botonSignup;
         private Label label5;
         private PictureBox pictureBox1;
         private Label label6;

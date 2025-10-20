@@ -8,7 +8,7 @@ namespace CapasDatos
     {
         string CadenaConexion = @"Server=LENOVOSOFIA\SQLEXPRESS;Database=ProyectoNotasBD;Trusted_Connection=True;TrustServerCertificate=True;";
 
-        public void InsertarNota(Nota n)
+        public void InsertarNota(CENota n)
         {
             using (SqlConnection conn = new SqlConnection(CadenaConexion))
             {

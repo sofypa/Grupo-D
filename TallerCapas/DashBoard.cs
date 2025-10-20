@@ -75,7 +75,9 @@ namespace TallerCapas
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            Prueba.Form1 ventanaNota = new Prueba.Form1();
+            ventanaNota.Show();
+            this.Hide();
         }
 
 
@@ -125,5 +127,11 @@ namespace TallerCapas
             dgvDashboard.DataSource = dv;
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Proyecto.Form1 ventana = new Proyecto.Form1();
+            ventana.Show();
+            this.Hide();
+        }
     }
 }

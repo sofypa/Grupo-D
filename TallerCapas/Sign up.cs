@@ -1,13 +1,5 @@
 ﻿using Proyecto;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+
 
 namespace CapaPresentacion
 {
@@ -33,6 +25,13 @@ namespace CapaPresentacion
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void botonSignup_Click(object sender, EventArgs e)
+        {
+            TallerCapas.DashBoard ventana = new TallerCapas.DashBoard();
+            ventana.Show();
+            this.Hide();
         }
     }
 }

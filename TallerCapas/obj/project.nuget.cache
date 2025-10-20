@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eludQAgrRtI=",
+  "dgSpecHash": "/92WtYrK1V0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sofie\\OneDrive\\Documentos\\Sofia\\3uni\\2do semestre\\HPA III\\TallerCapas\\TallerCapas\\CapaPresentacion.csproj",
+  "projectFilePath": "C:\\Users\\sofie\\OneDrive\\Documentos\\GitHub\\Grupo-D\\TallerCapas\\CapaPresentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sofie\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\sofie\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
