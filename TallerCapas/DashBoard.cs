@@ -83,7 +83,7 @@ namespace TallerCapas
 
         bool datosCargados = false;
 
-        private void FrmDashboard_Load(object sender, EventArgs e)
+        /*private void FrmDashboard_Load(object sender, EventArgs e)
         {
             // Obtener los grupos desde la base de datos
             DataTable dtGrupos = cnDashboard.ObtenerGrupos();
@@ -106,8 +106,8 @@ namespace TallerCapas
             datosCargados = true;
         }
 
-
-        private void comboGrupo_SelectedIndexChanged(object sender, EventArgs e)
+        */
+       /* private void comboGrupo_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (!datosCargados || comboGrupo.SelectedValue == null)
                 return;
@@ -126,7 +126,7 @@ namespace TallerCapas
 
             dgvDashboard.DataSource = dv;
         }
-
+       */
         private void button5_Click(object sender, EventArgs e)
         {
             Proyecto.Form1 ventana = new Proyecto.Form1();

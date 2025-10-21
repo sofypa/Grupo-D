@@ -35,8 +35,8 @@ namespace CapasDatos
             using (SqlCommand cmd = new SqlCommand(query, conn))
             using (SqlDataAdapter da = new SqlDataAdapter(cmd))
             {
-                conn.Open();
-                da.Fill(tabla);
+                //conn.Open();
+                //da.Fill(tabla);
             }
 
             return tabla;

@@ -6,7 +6,7 @@ namespace CapasDatos
 {
     public class CDNota
     {
-        string CadenaConexion = @"Server=LENOVOSOFIA\SQLEXPRESS;Database=ProyectoNotasBD;Trusted_Connection=True;TrustServerCertificate=True;";
+        string CadenaConexion = "Server=POWELLSITO-PC\\SQLEXPRESS;Database=Inmueble;Trusted_Connection=True;TrustServerCertificate=True;";
 
         public void InsertarNota(CENota n)
         {
@@ -42,5 +42,6 @@ namespace CapasDatos
 
             return tabla;
         }
+
     }
 }

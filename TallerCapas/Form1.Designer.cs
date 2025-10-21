@@ -72,8 +72,8 @@
             cbCategoria = new ComboBox();
             label15 = new Label();
             label16 = new Label();
-            txtbNota = new TextBox();
             btnVolverDashboard = new Button();
+            numNota = new NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -82,6 +82,7 @@
             ((System.ComponentModel.ISupportInitialize)dgvPonderaciones).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvNotas).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numNota).BeginInit();
             SuspendLayout();
             // 
             // pictureBox2
@@ -432,6 +433,7 @@
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = false;
             btnGuardar.Click += btnGuardar_Click;
+            btnGuardar.Validating += calificacion_Validating;
             // 
             // txtbCategoria
             // 
@@ -495,6 +497,7 @@
             pictureBox6.Size = new Size(301, 187);
             pictureBox6.TabIndex = 35;
             pictureBox6.TabStop = false;
+            pictureBox6.Click += pictureBox6_Click;
             // 
             // dgvNotas
             // 
@@ -538,17 +541,6 @@
             label16.TabIndex = 41;
             label16.Text = "Nota:";
             // 
-            // txtbNota
-            // 
-            txtbNota.BackColor = Color.AliceBlue;
-            txtbNota.BorderStyle = BorderStyle.FixedSingle;
-            txtbNota.Location = new Point(571, 512);
-            txtbNota.Margin = new Padding(3, 4, 3, 4);
-            txtbNota.Name = "txtbNota";
-            txtbNota.Size = new Size(88, 27);
-            txtbNota.TabIndex = 40;
-            txtbNota.TextChanged += txtbNota_TextChanged;
-            // 
             // btnVolverDashboard
             // 
             btnVolverDashboard.BackColor = Color.White;
@@ -564,15 +556,22 @@
             btnVolverDashboard.UseVisualStyleBackColor = false;
             btnVolverDashboard.Click += btnVolverDashboard_Click;
             // 
+            // numNota
+            // 
+            numNota.Location = new Point(584, 511);
+            numNota.Name = "numNota";
+            numNota.Size = new Size(75, 27);
+            numNota.TabIndex = 43;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(714, 677);
+            Controls.Add(numNota);
             Controls.Add(btnVolverDashboard);
             Controls.Add(label16);
-            Controls.Add(txtbNota);
             Controls.Add(label15);
             Controls.Add(cbCategoria);
             Controls.Add(dgvNotas);
@@ -623,6 +622,7 @@
             ((System.ComponentModel.ISupportInitialize)dgvPonderaciones).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvNotas).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numNota).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -673,7 +673,7 @@
         private ComboBox cbCategoria;
         private Label label15;
         private Label label16;
-        private TextBox txtbNota;
         private Button btnVolverDashboard;
+        private NumericUpDown numNota;
     }
 }

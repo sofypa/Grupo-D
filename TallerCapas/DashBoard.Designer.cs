@@ -97,7 +97,7 @@
             comboGrupo.Name = "comboGrupo";
             comboGrupo.Size = new Size(174, 28);
             comboGrupo.TabIndex = 19;
-            comboGrupo.SelectedIndexChanged += comboGrupo_SelectedIndexChanged;
+            //comboGrupo.SelectedIndexChanged += comboGrupo_SelectedIndexChanged;
             // 
             // groupBox2
             // 
@@ -137,7 +137,7 @@
             Margin = new Padding(2);
             Name = "DashBoard";
             Text = "Form1";
-            Load += FrmDashboard_Load;
+            //Load += FrmDashboard_Load;
             ((System.ComponentModel.ISupportInitialize)dgvDashboard).EndInit();
             groupBox2.ResumeLayout(false);
             ResumeLayout(false);

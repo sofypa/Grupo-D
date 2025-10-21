@@ -1,3 +1,8 @@
+using CapaEntidad;
+using CapasDatos;
+using CapaNegocio;
+using System;
+
 namespace Prueba
 {
     public partial class Form1 : Form
@@ -134,6 +139,17 @@ namespace Prueba
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
+            CENota cENota = new CENota();
+            cENota.Calificacion = (double)numNota.Value;
+
+            CNNota cNNota = new CNNota();
+        
+            //validamos
+            bool validadar = cNNota.validar(cENota);
+            if (!validadar)
+            {
+                return;
+            }
 
         }
 
@@ -142,6 +158,20 @@ namespace Prueba
             TallerCapas.DashBoard ventana = new TallerCapas.DashBoard();
             ventana.Show();
             this.Hide();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void calificacion_Validating(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            double Nota = (double)numNota.Value;
+            if (Nota < 0 || Nota >100)
+            {
+                MessageBox.Show("la nota tiene que ser de 0-100");
+                e.Cancel = true;
+            }
         }
     }
 }
