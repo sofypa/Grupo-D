@@ -1,9 +1,10 @@
-﻿using CapasDatos;
+﻿using CapaEntidad;
+using CapasDatos;
 using System.Data;
 
 namespace CapaNegocio
 {
-    internal class CNMateria
+    public class CNMateria
     {
         private CDMateria cdMateria = new CDMateria();
 
@@ -12,6 +13,11 @@ namespace CapaNegocio
         {
             return cdMateria.ObtenerMaterias();
         }
+        public void CrearMateria(CEMateria cE)
+        {
+            cdMateria.Crear(cE);
+        }
+        
     }
 }
 

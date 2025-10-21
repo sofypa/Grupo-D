@@ -83,7 +83,7 @@ namespace TallerCapas
 
         bool datosCargados = false;
 
-        /*private void FrmDashboard_Load(object sender, EventArgs e)
+        private void FrmDashboard_Load(object sender, EventArgs e)
         {
             // Obtener los grupos desde la base de datos
             DataTable dtGrupos = cnDashboard.ObtenerGrupos();
@@ -106,32 +106,37 @@ namespace TallerCapas
             datosCargados = true;
         }
 
-        */
-       /* private void comboGrupo_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (!datosCargados || comboGrupo.SelectedValue == null)
-                return;
+        
+         private void comboGrupo_SelectedIndexChanged(object sender, EventArgs e)
+         {
+             if (!datosCargados || comboGrupo.SelectedValue == null)
+                 return;
 
-            string grupoSeleccionado = comboGrupo.SelectedValue.ToString();
+             string grupoSeleccionado = comboGrupo.SelectedValue.ToString();
 
-            // Obtener todos los datos
-            DataTable dt = cnDashboard.ObtenerDatosDashboard();
-            DataView dv = dt.DefaultView;
+             // Obtener todos los datos
+             DataTable dt = cnDashboard.ObtenerDatosDashboard();
+             DataView dv = dt.DefaultView;
 
-            // Si el usuario escoge "- Seleccionar grupo -", mostramos todos
-            if (grupoSeleccionado != "- Seleccionar grupo -")
-            {
-                dv.RowFilter = $"Grupo = '{grupoSeleccionado.Replace("'", "''")}'";
-            }
+             // Si el usuario escoge "- Seleccionar grupo -", mostramos todos
+             if (grupoSeleccionado != "- Seleccionar grupo -")
+             {
+                 dv.RowFilter = $"Grupo = '{grupoSeleccionado.Replace("'", "''")}'";
+             }
 
-            dgvDashboard.DataSource = dv;
-        }
-       */
+             dgvDashboard.DataSource = dv;
+         }
+        
         private void button5_Click(object sender, EventArgs e)
         {
             Proyecto.Form1 ventana = new Proyecto.Form1();
             ventana.Show();
             this.Hide();
+        }
+
+        private void DashBoard_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

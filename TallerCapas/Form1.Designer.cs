@@ -47,11 +47,8 @@
             label7 = new Label();
             txtbCodigo = new TextBox();
             txtbNombre = new TextBox();
-            txtbCreditos = new TextBox();
             label8 = new Label();
-            txtbLabs = new TextBox();
             label9 = new Label();
-            txtbClases = new TextBox();
             label10 = new Label();
             btnEditarMateria = new Button();
             btnNuevaMateria = new Button();
@@ -74,6 +71,9 @@
             label16 = new Label();
             btnVolverDashboard = new Button();
             numNota = new NumericUpDown();
+            numLabs = new NumericUpDown();
+            numCreditos = new NumericUpDown();
+            numClases = new NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -83,6 +83,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvNotas).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numNota).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numLabs).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numCreditos).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numClases).BeginInit();
             SuspendLayout();
             // 
             // pictureBox2
@@ -249,17 +252,6 @@
             txtbNombre.TabIndex = 15;
             txtbNombre.TextChanged += txtbNombre_TextChanged;
             // 
-            // txtbCreditos
-            // 
-            txtbCreditos.BackColor = Color.AliceBlue;
-            txtbCreditos.BorderStyle = BorderStyle.FixedSingle;
-            txtbCreditos.Location = new Point(117, 495);
-            txtbCreditos.Margin = new Padding(3, 4, 3, 4);
-            txtbCreditos.Name = "txtbCreditos";
-            txtbCreditos.Size = new Size(67, 27);
-            txtbCreditos.TabIndex = 17;
-            txtbCreditos.TextChanged += txtbCreditos_TextChanged;
-            // 
             // label8
             // 
             label8.AutoSize = true;
@@ -270,17 +262,6 @@
             label8.TabIndex = 16;
             label8.Text = "Créditos:";
             // 
-            // txtbLabs
-            // 
-            txtbLabs.BackColor = Color.AliceBlue;
-            txtbLabs.BorderStyle = BorderStyle.FixedSingle;
-            txtbLabs.Location = new Point(117, 533);
-            txtbLabs.Margin = new Padding(3, 4, 3, 4);
-            txtbLabs.Name = "txtbLabs";
-            txtbLabs.Size = new Size(48, 27);
-            txtbLabs.TabIndex = 19;
-            txtbLabs.TextChanged += txtbLabs_TextChanged;
-            // 
             // label9
             // 
             label9.AutoSize = true;
@@ -290,17 +271,6 @@
             label9.Size = new Size(48, 23);
             label9.TabIndex = 18;
             label9.Text = "Labs:";
-            // 
-            // txtbClases
-            // 
-            txtbClases.BackColor = Color.AliceBlue;
-            txtbClases.BorderStyle = BorderStyle.FixedSingle;
-            txtbClases.Location = new Point(255, 533);
-            txtbClases.Margin = new Padding(3, 4, 3, 4);
-            txtbClases.Name = "txtbClases";
-            txtbClases.Size = new Size(48, 27);
-            txtbClases.TabIndex = 21;
-            txtbClases.TextChanged += txtbClases_TextChanged;
             // 
             // label10
             // 
@@ -563,12 +533,36 @@
             numNota.Size = new Size(75, 27);
             numNota.TabIndex = 43;
             // 
+            // numLabs
+            // 
+            numLabs.Location = new Point(117, 533);
+            numLabs.Name = "numLabs";
+            numLabs.Size = new Size(67, 27);
+            numLabs.TabIndex = 44;
+            // 
+            // numCreditos
+            // 
+            numCreditos.Location = new Point(117, 494);
+            numCreditos.Name = "numCreditos";
+            numCreditos.Size = new Size(67, 27);
+            numCreditos.TabIndex = 45;
+            // 
+            // numClases
+            // 
+            numClases.Location = new Point(260, 533);
+            numClases.Name = "numClases";
+            numClases.Size = new Size(67, 27);
+            numClases.TabIndex = 46;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(714, 677);
+            Controls.Add(numClases);
+            Controls.Add(numCreditos);
+            Controls.Add(numLabs);
             Controls.Add(numNota);
             Controls.Add(btnVolverDashboard);
             Controls.Add(label16);
@@ -590,11 +584,8 @@
             Controls.Add(pictureBox5);
             Controls.Add(btnNuevaMateria);
             Controls.Add(btnEditarMateria);
-            Controls.Add(txtbClases);
             Controls.Add(label10);
-            Controls.Add(txtbLabs);
             Controls.Add(label9);
-            Controls.Add(txtbCreditos);
             Controls.Add(label8);
             Controls.Add(txtbNombre);
             Controls.Add(txtbCodigo);
@@ -623,6 +614,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvNotas).EndInit();
             ((System.ComponentModel.ISupportInitialize)numNota).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numLabs).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numCreditos).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numClases).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -648,11 +642,8 @@
         private Label label7;
         private TextBox txtbCodigo;
         private TextBox txtbNombre;
-        private TextBox txtbCreditos;
         private Label label8;
-        private TextBox txtbLabs;
         private Label label9;
-        private TextBox txtbClases;
         private Label label10;
         private Button btnEditarMateria;
         private Button btnNuevaMateria;
@@ -675,5 +666,8 @@
         private Label label16;
         private Button btnVolverDashboard;
         private NumericUpDown numNota;
+        private NumericUpDown numLabs;
+        private NumericUpDown numCreditos;
+        private NumericUpDown numClases;
     }
 }

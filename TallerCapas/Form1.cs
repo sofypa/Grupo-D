@@ -89,7 +89,17 @@ namespace Prueba
 
         private void button1_Click(object sender, EventArgs e)
         {
+            CEMateria cEMateria = new CEMateria();
+            cEMateria.codigo_materia = txtbCodigo.Text;
+            cEMateria.nombre_materia = txtbNombre.Text;
+            cEMateria.Creditos = (int)numCreditos.Value;
+            cEMateria.horas_teoricas = (int)numLabs.Value;
+            cEMateria.horas_practicas = (int)numClases.Value;  
+            
+            CNMateria cNMateria = new CNMateria();
 
+            cNMateria.CrearMateria(cEMateria);
+            MessageBox.Show("Materia creada exitosamente.");
         }
 
         private void dgvPonderaciones_CellContentClick(object sender, DataGridViewCellEventArgs e)
