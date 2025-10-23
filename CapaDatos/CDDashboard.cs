@@ -6,7 +6,7 @@ namespace CapasDatos
 {
     public class CDDashboard
     {
-        string CadenaConexion = @"Server=LENOVOSOFIA\SQLEXPRESS;Database=ProyectoNotasBD;Trusted_Connection=True;TrustServerCertificate=True;";
+        string CadenaConexion = @"Server=POWELLSITO-PC\SQLEXPRESS;Database=ProyectoNotasBD;Trusted_Connection=True;TrustServerCertificate=True;";
 
         // Obtener todos los registros de la vista_dashboard
         public DataTable ObtenerDatosDashboard()
@@ -35,8 +35,8 @@ namespace CapasDatos
             using (SqlCommand cmd = new SqlCommand(query, conn))
             using (SqlDataAdapter da = new SqlDataAdapter(cmd))
             {
-                //conn.Open();
-                //da.Fill(tabla);
+                conn.Open();
+                da.Fill(tabla);
             }
 
             return tabla;

@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "TallerCapas\\CapaPresentacion.csproj",
+        "Action": "Start",
+        "DebugTarget": "CapaPresentacion"
+      }
+    ]
+  }
+]

@@ -74,6 +74,8 @@
             numLabs = new NumericUpDown();
             numCreditos = new NumericUpDown();
             numClases = new NumericUpDown();
+            txtGrupo = new TextBox();
+            label17 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -554,12 +556,34 @@
             numClases.Size = new Size(67, 27);
             numClases.TabIndex = 46;
             // 
+            // txtGrupo
+            // 
+            txtGrupo.BackColor = Color.AliceBlue;
+            txtGrupo.BorderStyle = BorderStyle.FixedSingle;
+            txtGrupo.Location = new Point(127, 267);
+            txtGrupo.Margin = new Padding(3, 4, 3, 4);
+            txtGrupo.Name = "txtGrupo";
+            txtGrupo.Size = new Size(212, 27);
+            txtGrupo.TabIndex = 47;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label17.Location = new Point(48, 271);
+            label17.Name = "label17";
+            label17.Size = new Size(62, 23);
+            label17.TabIndex = 48;
+            label17.Text = "Grupo:";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(714, 677);
+            Controls.Add(label17);
+            Controls.Add(txtGrupo);
             Controls.Add(numClases);
             Controls.Add(numCreditos);
             Controls.Add(numLabs);
@@ -669,5 +693,7 @@
         private NumericUpDown numLabs;
         private NumericUpDown numCreditos;
         private NumericUpDown numClases;
+        private TextBox txtGrupo;
+        private Label label17;
     }
 }

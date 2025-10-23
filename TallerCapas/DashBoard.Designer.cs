@@ -36,6 +36,7 @@
             comboGrupo = new ComboBox();
             groupBox2 = new GroupBox();
             button5 = new Button();
+            btnActualizar = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvDashboard).BeginInit();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -97,7 +98,7 @@
             comboGrupo.Name = "comboGrupo";
             comboGrupo.Size = new Size(174, 28);
             comboGrupo.TabIndex = 19;
-            //comboGrupo.SelectedIndexChanged += comboGrupo_SelectedIndexChanged;
+            comboGrupo.SelectedIndexChanged += comboGrupo_SelectedIndexChanged;
             // 
             // groupBox2
             // 
@@ -122,12 +123,23 @@
             button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
             // 
+            // btnActualizar
+            // 
+            btnActualizar.Location = new Point(597, 145);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new Size(125, 29);
+            btnActualizar.TabIndex = 22;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = true;
+            btnActualizar.Click += btnActualizar_Click;
+            // 
             // DashBoard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(788, 573);
+            Controls.Add(btnActualizar);
             Controls.Add(button5);
             Controls.Add(groupBox2);
             Controls.Add(button4);
@@ -137,7 +149,7 @@
             Margin = new Padding(2);
             Name = "DashBoard";
             Text = "Form1";
-            //Load += FrmDashboard_Load;
+            Load += FrmDashboard_Load;
             ((System.ComponentModel.ISupportInitialize)dgvDashboard).EndInit();
             groupBox2.ResumeLayout(false);
             ResumeLayout(false);
@@ -153,5 +165,6 @@
         private ComboBox comboGrupo;
         private GroupBox groupBox2;
         private Button button5;
+        private Button btnActualizar;
     }
 }

@@ -7,7 +7,7 @@ namespace CapasDatos
 {
     public class CDMateria
     {
-        string CadenaConexion = @"Server=ANGRYBIRDROJO\SQLEXPRESS;Database=ProyectoNotasBD;Trusted_Connection=True;TrustServerCertificate=True;";
+        string CadenaConexion = @"Server=POWELLSITO-PC\SQLEXPRESS;Database=ProyectoNotasBD;Trusted_Connection=True;TrustServerCertificate=True;";
 
         // Obtener todas las materias
         public DataTable ObtenerMaterias()

@@ -106,27 +106,27 @@ namespace TallerCapas
             datosCargados = true;
         }
 
-        
-         private void comboGrupo_SelectedIndexChanged(object sender, EventArgs e)
-         {
-             if (!datosCargados || comboGrupo.SelectedValue == null)
-                 return;
 
-             string grupoSeleccionado = comboGrupo.SelectedValue.ToString();
+        private void comboGrupo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (!datosCargados || comboGrupo.SelectedValue == null)
+                return;
 
-             // Obtener todos los datos
-             DataTable dt = cnDashboard.ObtenerDatosDashboard();
-             DataView dv = dt.DefaultView;
+            string grupoSeleccionado = comboGrupo.SelectedValue.ToString();
 
-             // Si el usuario escoge "- Seleccionar grupo -", mostramos todos
-             if (grupoSeleccionado != "- Seleccionar grupo -")
-             {
-                 dv.RowFilter = $"Grupo = '{grupoSeleccionado.Replace("'", "''")}'";
-             }
+            // Obtener todos los datos
+            DataTable dt = cnDashboard.ObtenerDatosDashboard();
+            DataView dv = dt.DefaultView;
 
-             dgvDashboard.DataSource = dv;
-         }
-        
+            // Si el usuario escoge "- Seleccionar grupo -", mostramos todos
+            if (grupoSeleccionado != "- Seleccionar grupo -")
+            {
+                dv.RowFilter = $"Grupo = '{grupoSeleccionado.Replace("'", "''")}'";
+            }
+
+            dgvDashboard.DataSource = dv;
+        }
+
         private void button5_Click(object sender, EventArgs e)
         {
             Proyecto.Form1 ventana = new Proyecto.Form1();
@@ -138,5 +138,23 @@ namespace TallerCapas
         {
 
         }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            
+        
+            // Recarga los datos
+            DataTable dt = cnDashboard.ObtenerDatosDashboard();
+
+            // Si hay un grupo seleccionado, aplicamos el filtro de nuevo
+            string grupoSeleccionado = comboGrupo.SelectedValue?.ToString() ?? "- Seleccionar grupo -";
+            DataView dv = new DataView(dt);
+
+            if (grupoSeleccionado != "- Seleccionar grupo -")
+                dv.RowFilter = $"Grupo = '{grupoSeleccionado.Replace("'", "''")}'";
+
+            dgvDashboard.DataSource = dv;
+        }
     }
 }
+

@@ -15,6 +15,9 @@ namespace Prueba
         private void Form1_Load(object sender, EventArgs e)
         {
 
+
+
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -59,7 +62,11 @@ namespace Prueba
 
         private void btnNuevaMateria_Click(object sender, EventArgs e)
         {
-
+            txtbCodigo.Clear();
+            txtbNombre.Clear();
+            numCreditos.Value = 0;
+            numLabs.Value = 0;
+            numClases.Value = 0;
         }
 
         private void txtbCodigo_TextChanged(object sender, EventArgs e)
@@ -150,16 +157,13 @@ namespace Prueba
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             CENota cENota = new CENota();
-            cENota.Calificacion = (double)numNota.Value;
+            cENota.grupo = txtGrupo.Text;
+            cENota.calificacion = (double)numNota.Value;
 
             CNNota cNNota = new CNNota();
-        
-            //validamos
-            bool validadar = cNNota.validar(cENota);
-            if (!validadar)
-            {
-                return;
-            }
+
+            cNNota.crearNota(cENota);
+            MessageBox.Show("Nota creada.");
 
         }
 

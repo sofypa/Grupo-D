@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sofie\\OneDrive\\Documentos\\GitHub\\Grupo-D\\CapaEntidad\\CapaEntidad.csproj": {}
+    "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaEntidad\\CapaEntidad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sofie\\OneDrive\\Documentos\\GitHub\\Grupo-D\\CapaEntidad\\CapaEntidad.csproj": {
+    "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaEntidad\\CapaEntidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sofie\\OneDrive\\Documentos\\GitHub\\Grupo-D\\CapaEntidad\\CapaEntidad.csproj",
+        "projectUniqueName": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaEntidad\\CapaEntidad.csproj",
         "projectName": "CapaEntidad",
-        "projectPath": "C:\\Users\\sofie\\OneDrive\\Documentos\\GitHub\\Grupo-D\\CapaEntidad\\CapaEntidad.csproj",
-        "packagesPath": "C:\\Users\\sofie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sofie\\OneDrive\\Documentos\\GitHub\\Grupo-D\\CapaEntidad\\obj\\",
+        "projectPath": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaEntidad\\CapaEntidad.csproj",
+        "packagesPath": "C:\\Users\\soyr1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaEntidad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sofie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\soyr1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -69,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

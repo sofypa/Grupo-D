@@ -1656,28 +1656,29 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "CapaDatos >= 1.0.0",
       "CapaEntidad >= 1.0.0",
       "CapaNegocio >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sofie\\.nuget\\packages\\": {},
+    "C:\\Users\\soyr1\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sofie\\OneDrive\\Documentos\\GitHub\\Grupo-D\\TallerCapas\\CapaPresentacion.csproj",
+      "projectUniqueName": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\CapaPresentacion.csproj",
       "projectName": "CapaPresentacion",
-      "projectPath": "C:\\Users\\sofie\\OneDrive\\Documentos\\GitHub\\Grupo-D\\TallerCapas\\CapaPresentacion.csproj",
-      "packagesPath": "C:\\Users\\sofie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sofie\\OneDrive\\Documentos\\GitHub\\Grupo-D\\TallerCapas\\obj\\",
+      "projectPath": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\CapaPresentacion.csproj",
+      "packagesPath": "C:\\Users\\soyr1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\sofie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\soyr1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1693,11 +1694,14 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\sofie\\OneDrive\\Documentos\\GitHub\\Grupo-D\\CapaEntidad\\CapaEntidad.csproj": {
-              "projectPath": "C:\\Users\\sofie\\OneDrive\\Documentos\\GitHub\\Grupo-D\\CapaEntidad\\CapaEntidad.csproj"
+            "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaDatos\\CapaDatos.csproj": {
+              "projectPath": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaDatos\\CapaDatos.csproj"
             },
-            "C:\\Users\\sofie\\OneDrive\\Documentos\\GitHub\\Grupo-D\\CapaNegocio\\CapaNegocio.csproj": {
-              "projectPath": "C:\\Users\\sofie\\OneDrive\\Documentos\\GitHub\\Grupo-D\\CapaNegocio\\CapaNegocio.csproj"
+            "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaEntidad\\CapaEntidad.csproj": {
+              "projectPath": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaEntidad\\CapaEntidad.csproj"
+            },
+            "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaNegocio\\CapaNegocio.csproj": {
+              "projectPath": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaNegocio\\CapaNegocio.csproj"
             }
           }
         }
@@ -1736,7 +1740,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

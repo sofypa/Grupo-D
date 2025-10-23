@@ -32,3 +32,15 @@ C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaEntidad\obj\Debug\net8.0-w
 C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaEntidad\obj\Debug\net8.0-windows\refint\CapaEntidad.dll
 C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.pdb
 C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\CapaEntidad\obj\Debug\net8.0-windows\ref\CapaEntidad.dll
+C:\Users\soyr1\OneDrive\Documents\GitHub\Grupo-D\CapaEntidad\bin\Debug\net8.0-windows\CapaEntidad.deps.json
+C:\Users\soyr1\OneDrive\Documents\GitHub\Grupo-D\CapaEntidad\bin\Debug\net8.0-windows\CapaEntidad.dll
+C:\Users\soyr1\OneDrive\Documents\GitHub\Grupo-D\CapaEntidad\bin\Debug\net8.0-windows\CapaEntidad.pdb
+C:\Users\soyr1\OneDrive\Documents\GitHub\Grupo-D\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soyr1\OneDrive\Documents\GitHub\Grupo-D\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.AssemblyInfoInputs.cache
+C:\Users\soyr1\OneDrive\Documents\GitHub\Grupo-D\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.AssemblyInfo.cs
+C:\Users\soyr1\OneDrive\Documents\GitHub\Grupo-D\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\soyr1\OneDrive\Documents\GitHub\Grupo-D\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.sourcelink.json
+C:\Users\soyr1\OneDrive\Documents\GitHub\Grupo-D\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.dll
+C:\Users\soyr1\OneDrive\Documents\GitHub\Grupo-D\CapaEntidad\obj\Debug\net8.0-windows\refint\CapaEntidad.dll
+C:\Users\soyr1\OneDrive\Documents\GitHub\Grupo-D\CapaEntidad\obj\Debug\net8.0-windows\CapaEntidad.pdb
+C:\Users\soyr1\OneDrive\Documents\GitHub\Grupo-D\CapaEntidad\obj\Debug\net8.0-windows\ref\CapaEntidad.dll

@@ -6,20 +6,17 @@ namespace CapasDatos
 {
     public class CDNota
     {
-        string CadenaConexion = "Server=ANGRYBIRDROJO\\SQLEXPRESS;Database=ProyectoNotasBD;Trusted_Connection=True;TrustServerCertificate=True;";
+        string CadenaConexion = "Server=POWELLSITO-PC\\SQLEXPRESS;Database=ProyectoNotasBD;Trusted_Connection=True;TrustServerCertificate=True;";
 
         public void InsertarNota(CENota n)
         {
             using (SqlConnection conn = new SqlConnection(CadenaConexion))
             {
-                string query = "INSERT INTO nota (id_usuario, codigo_materia, id_categoria, calificacion, comentario) " +
-                               "VALUES (@usuario, @materia, @categoria, @calificacion, @comentario)";
+                string query = "INSERT INTO nota (grupo, calificacion) " +
+                               "VALUES (@grupo, @calificacion)";
                 SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@usuario", n.IdUsuario);
-                cmd.Parameters.AddWithValue("@materia", n.CodigoMateria);
-                cmd.Parameters.AddWithValue("@categoria", n.IdCategoria);
-                cmd.Parameters.AddWithValue("@calificacion", n.Calificacion);
-                cmd.Parameters.AddWithValue("@comentario", n.Comentario ?? "");
+                cmd.Parameters.AddWithValue("@grupo", n.grupo);
+                cmd.Parameters.AddWithValue("@calificacion", n.calificacion);
 
                 conn.Open();
                 cmd.ExecuteNonQuery();
