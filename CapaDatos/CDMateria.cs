@@ -60,5 +60,79 @@ namespace CapasDatos
                 MessageBox.Show("Error al crear el registro: " + ex.Message);
             }
         }
+       
+        // obetener lista de materias
+        public DataTable ListarMateriasDataTable()
+        {
+            DataTable dt = new DataTable();
+
+            using (SqlConnection cn = new SqlConnection(CadenaConexion))
+            using (SqlCommand cmd = new SqlCommand("SELECT codigo_materia, nombre_materia, creditos, horas_teoricas, horas_practicas FROM materia ORDER BY nombre_materia", cn))
+            using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+            {
+                try
+                {
+                    da.Fill(dt);
+                }
+                catch (Exception ex)
+                {
+                    // Manejo simple de errores: puedes loguear en lugar de MessageBox en capas inferiores
+                    System.Windows.Forms.MessageBox.Show("Error al obtener materias: " + ex.Message);
+                    return null;
+                }
+            }
+
+            return dt;
+        }
+        //Editar materia
+        public bool EditarMateria(CEMateria materia)
+        {
+            using (SqlConnection cn = new SqlConnection(CadenaConexion))
+            {
+                try
+                {
+                    cn.Open();
+                    string query = @"UPDATE materia SET 
+                                nombre_materia = @nombre,
+                                creditos = @creditos,
+                                horas_teoricas = @hte,
+                                horas_practicas = @hpr
+                             WHERE codigo_materia = @codigo";
+
+                    SqlCommand cmd = new SqlCommand(query, cn);
+                    cmd.Parameters.AddWithValue("@codigo", materia.codigo_materia);
+                    cmd.Parameters.AddWithValue("@nombre", materia.nombre_materia);
+                    cmd.Parameters.AddWithValue("@creditos", materia.Creditos);
+                    cmd.Parameters.AddWithValue("@hte", materia.horas_teoricas);
+                    cmd.Parameters.AddWithValue("@hpr", materia.horas_practicas);
+
+                    return cmd.ExecuteNonQuery() > 0;
+                }
+                catch
+                {
+                    return false;
+                }
+            }
+        }
+        //Eliminar materia
+        public bool EliminarMateria(string codigo)
+        {
+            using (SqlConnection cn = new SqlConnection(CadenaConexion))
+            {
+                try
+                {
+                    cn.Open();
+                    string query = "DELETE FROM materia WHERE codigo_materia = @codigo";
+                    SqlCommand cmd = new SqlCommand(query, cn);
+                    cmd.Parameters.AddWithValue("@codigo", codigo);
+
+                    return cmd.ExecuteNonQuery() > 0;
+                }
+                catch
+                {
+                    return false;
+                }
+            }
+        }
     }
 }

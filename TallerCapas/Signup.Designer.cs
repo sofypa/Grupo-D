@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            label2 = new Label();
+            txtNombre = new TextBox();
             label3 = new Label();
-            textBox3 = new TextBox();
+            txtEmail = new TextBox();
             label4 = new Label();
-            textBox4 = new TextBox();
+            txtPassword = new TextBox();
             botonSignup = new Button();
             label5 = new Label();
             pictureBox1 = new PictureBox();
             label6 = new Label();
+            label2 = new Label();
+            txtCedula = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -53,30 +53,12 @@
             label1.TabIndex = 0;
             label1.Text = "Nombre Completo";
             // 
-            // textBox1
+            // txtNombre
             // 
-            textBox1.Location = new Point(188, 151);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(190, 27);
-            textBox1.TabIndex = 2;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(424, 151);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(215, 27);
-            textBox2.TabIndex = 4;
-            textBox2.TextChanged += textBox2_TextChanged;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.BackColor = SystemColors.ControlLightLight;
-            label2.Location = new Point(424, 128);
-            label2.Name = "label2";
-            label2.Size = new Size(59, 20);
-            label2.TabIndex = 3;
-            label2.Text = "Usuario";
+            txtNombre.Location = new Point(188, 151);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(235, 27);
+            txtNombre.TabIndex = 2;
             // 
             // label3
             // 
@@ -88,12 +70,12 @@
             label3.TabIndex = 5;
             label3.Text = "Correo Electronico";
             // 
-            // textBox3
+            // txtEmail
             // 
-            textBox3.Location = new Point(188, 240);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(451, 27);
-            textBox3.TabIndex = 1;
+            txtEmail.Location = new Point(188, 240);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(451, 27);
+            txtEmail.TabIndex = 1;
             // 
             // label4
             // 
@@ -105,13 +87,13 @@
             label4.TabIndex = 7;
             label4.Text = "Contraseña";
             // 
-            // textBox4
+            // txtPassword
             // 
-            textBox4.Location = new Point(188, 327);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(451, 27);
-            textBox4.TabIndex = 1;
-            textBox4.UseSystemPasswordChar = true;
+            txtPassword.Location = new Point(188, 327);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(451, 27);
+            txtPassword.TabIndex = 1;
+            txtPassword.UseSystemPasswordChar = true;
             // 
             // botonSignup
             // 
@@ -163,21 +145,38 @@
             label6.Text = "Regresar al inicio de sesión";
             label6.Click += label6_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = SystemColors.ControlLightLight;
+            label2.Location = new Point(485, 128);
+            label2.Name = "label2";
+            label2.Size = new Size(55, 20);
+            label2.TabIndex = 13;
+            label2.Text = "Cedula";
+            // 
+            // txtCedula
+            // 
+            txtCedula.Location = new Point(485, 151);
+            txtCedula.Name = "txtCedula";
+            txtCedula.Size = new Size(154, 27);
+            txtCedula.TabIndex = 14;
+            // 
             // Sign_up
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(824, 595);
+            Controls.Add(txtCedula);
+            Controls.Add(label2);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(botonSignup);
-            Controls.Add(textBox4);
+            Controls.Add(txtPassword);
             Controls.Add(label4);
-            Controls.Add(textBox3);
+            Controls.Add(txtEmail);
             Controls.Add(label3);
-            Controls.Add(textBox2);
-            Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(txtNombre);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Name = "Sign_up";
@@ -190,16 +189,16 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Label label2;
+        private TextBox txtNombre;
         private Label label3;
-        private TextBox textBox3;
+        private TextBox txtEmail;
         private Label label4;
-        private TextBox textBox4;
+        private TextBox txtPassword;
         private Button botonSignup;
         private Label label5;
         private PictureBox pictureBox1;
         private Label label6;
+        private Label label2;
+        private TextBox txtCedula;
     }
 }

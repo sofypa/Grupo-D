@@ -29,14 +29,15 @@
         private void InitializeComponent()
         {
             ofdFoto = new OpenFileDialog();
-            button4 = new Button();
+            btnMateria = new Button();
             label1 = new Label();
-            labelUser = new Label();
             dgvDashboard = new DataGridView();
             comboGrupo = new ComboBox();
             groupBox2 = new GroupBox();
             button5 = new Button();
             btnActualizar = new Button();
+            btnNotas = new Button();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvDashboard).BeginInit();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -46,16 +47,16 @@
             ofdFoto.FileName = "ofdFoto";
             ofdFoto.FileOk += openFileDialog1_FileOk;
             // 
-            // button4
+            // btnMateria
             // 
-            button4.Location = new Point(322, 180);
-            button4.Margin = new Padding(2);
-            button4.Name = "button4";
-            button4.Size = new Size(205, 29);
-            button4.TabIndex = 12;
-            button4.Text = "Gestionar Materias y Notas";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            btnMateria.Location = new Point(324, 143);
+            btnMateria.Margin = new Padding(2);
+            btnMateria.Name = "btnMateria";
+            btnMateria.Size = new Size(205, 43);
+            btnMateria.TabIndex = 12;
+            btnMateria.Text = "Gestionar Materias";
+            btnMateria.UseVisualStyleBackColor = true;
+            btnMateria.Click += button4_Click;
             // 
             // label1
             // 
@@ -68,18 +69,6 @@
             label1.TabIndex = 13;
             label1.Text = "DASHBOARD DE CALIFICACIONES";
             label1.Click += label1_Click;
-            // 
-            // labelUser
-            // 
-            labelUser.AutoSize = true;
-            labelUser.Font = new Font("Segoe UI", 12F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            labelUser.Location = new Point(547, 37);
-            labelUser.Margin = new Padding(2, 0, 2, 0);
-            labelUser.Name = "labelUser";
-            labelUser.Size = new Size(138, 28);
-            labelUser.TabIndex = 14;
-            labelUser.Text = "Sofía Escudero";
-            labelUser.Click += label2_Click;
             // 
             // dgvDashboard
             // 
@@ -133,18 +122,40 @@
             btnActualizar.UseVisualStyleBackColor = true;
             btnActualizar.Click += btnActualizar_Click;
             // 
+            // btnNotas
+            // 
+            btnNotas.Location = new Point(324, 186);
+            btnNotas.Margin = new Padding(2);
+            btnNotas.Name = "btnNotas";
+            btnNotas.Size = new Size(205, 43);
+            btnNotas.TabIndex = 23;
+            btnNotas.Text = "Gestionar Notas";
+            btnNotas.UseVisualStyleBackColor = true;
+            btnNotas.Click += button1_Click_1;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(44, 472);
+            button2.Margin = new Padding(2);
+            button2.Name = "button2";
+            button2.Size = new Size(205, 29);
+            button2.TabIndex = 24;
+            button2.Text = "Categorias";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // DashBoard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(788, 573);
+            Controls.Add(button2);
+            Controls.Add(btnNotas);
             Controls.Add(btnActualizar);
             Controls.Add(button5);
             Controls.Add(groupBox2);
-            Controls.Add(button4);
+            Controls.Add(btnMateria);
             Controls.Add(dgvDashboard);
-            Controls.Add(labelUser);
             Controls.Add(label1);
             Margin = new Padding(2);
             Name = "DashBoard";
@@ -158,13 +169,14 @@
 
         #endregion
         private OpenFileDialog ofdFoto;
-        private Button button4;
+        private Button btnMateria;
         private Label label1;
-        private Label labelUser;
         private DataGridView dgvDashboard;
         private ComboBox comboGrupo;
         private GroupBox groupBox2;
         private Button button5;
         private Button btnActualizar;
+        private Button btnNotas;
+        private Button button2;
     }
 }

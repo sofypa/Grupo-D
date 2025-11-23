@@ -3,52 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\tallercapas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\tallercapas\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\tallercapas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C842272A-7701-495C-8075-CB26640875E9}|CapaDatos\\CapaDatos.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\capadatos\\cdlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C842272A-7701-495C-8075-CB26640875E9}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\tallercapas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\tallercapas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\tallercapas\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\tallercapas\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1951B13-6E53-4C1D-B6DF-05AE410ACA05}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\capanegocio\\cnlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1951B13-6E53-4C1D-B6DF-05AE410ACA05}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cnlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55BE6337-C130-499C-9976-F86B9745C099}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\capaentidad\\ceusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55BE6337-C130-499C-9976-F86B9745C099}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\ceusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\tallercapas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\tallercapas\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\tallercapas\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\tallercapas\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\tallercapas\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\tallercapas\\asig\u0026tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\asig\u0026tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1951B13-6E53-4C1D-B6DF-05AE410ACA05}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\capanegocio\\cnmateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1951B13-6E53-4C1D-B6DF-05AE410ACA05}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cnmateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C842272A-7701-495C-8075-CB26640875E9}|CapaDatos\\CapaDatos.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\capadatos\\cdnota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C842272A-7701-495C-8075-CB26640875E9}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdnota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1951B13-6E53-4C1D-B6DF-05AE410ACA05}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\capanegocio\\cnnota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1951B13-6E53-4C1D-B6DF-05AE410ACA05}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cnnota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55BE6337-C130-499C-9976-F86B9745C099}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\capaentidad\\cenota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55BE6337-C130-499C-9976-F86B9745C099}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\cenota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\tallercapas\\asig\u0026tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\asig\u0026tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C842272A-7701-495C-8075-CB26640875E9}|CapaDatos\\CapaDatos.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\capadatos\\cdmateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C842272A-7701-495C-8075-CB26640875E9}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdmateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\tallercapas\\dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|c:\\users\\soyr1\\onedrive\\documents\\github\\grupo-d\\tallercapas\\log in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\log in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\tallercapas\\log in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FC0564E9-786A-4C6B-AC9F-23C7225A60D0}|TallerCapas\\CapaPresentacion.csproj|solutionrelative:tallercapas\\log in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,159 +70,200 @@
       "DocumentGroups": [
         {
           "DockedWidth": 89,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CNMateria.cs",
-              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaNegocio\\CNMateria.cs",
-              "RelativeDocumentMoniker": "CapaNegocio\\CNMateria.cs",
-              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaNegocio\\CNMateria.cs",
-              "RelativeToolTip": "CapaNegocio\\CNMateria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Materia.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Materia.cs",
+              "RelativeDocumentMoniker": "TallerCapas\\Materia.cs",
+              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Materia.cs [Design]",
+              "RelativeToolTip": "TallerCapas\\Materia.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T15:54:22.355Z",
+              "WhenOpened": "2025-11-23T19:46:14.424Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Form1.cs",
-              "RelativeDocumentMoniker": "TallerCapas\\Form1.cs",
-              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Form1.cs [Design]",
-              "RelativeToolTip": "TallerCapas\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T03:26:53.899Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Form1.cs",
-              "RelativeDocumentMoniker": "TallerCapas\\Form1.cs",
-              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Form1.cs",
-              "RelativeToolTip": "TallerCapas\\Form1.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAArwBMAAAAAAAAAAAAAAA==",
+              "Title": "CDLogin.cs",
+              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaDatos\\CDLogin.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDLogin.cs",
+              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaDatos\\CDLogin.cs",
+              "RelativeToolTip": "CapaDatos\\CDLogin.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwDIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T03:27:14.934Z",
+              "WhenOpened": "2025-11-23T21:27:13.654Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "Signup.cs",
+              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Signup.cs",
+              "RelativeDocumentMoniker": "TallerCapas\\Signup.cs",
+              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Signup.cs",
+              "RelativeToolTip": "TallerCapas\\Signup.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T21:46:37.782Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CEUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaEntidad\\CEUsuario.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\CEUsuario.cs",
+              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaEntidad\\CEUsuario.cs",
+              "RelativeToolTip": "CapaEntidad\\CEUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T22:40:22.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CNLogIn.cs",
+              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaNegocio\\CNLogIn.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CNLogIn.cs",
+              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaNegocio\\CNLogIn.cs",
+              "RelativeToolTip": "CapaNegocio\\CNLogIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T21:28:35.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "DashBoard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\DashBoard.cs",
               "RelativeDocumentMoniker": "TallerCapas\\DashBoard.cs",
               "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\DashBoard.cs [Design]",
               "RelativeToolTip": "TallerCapas\\DashBoard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T16:01:31.398Z",
+              "WhenOpened": "2025-11-23T20:12:40.579Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CENota.cs",
-              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaEntidad\\CENota.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\CENota.cs",
-              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaEntidad\\CENota.cs",
-              "RelativeToolTip": "CapaEntidad\\CENota.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Login.cs",
+              "RelativeDocumentMoniker": "TallerCapas\\Login.cs",
+              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Login.cs [Design]",
+              "RelativeToolTip": "TallerCapas\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T22:26:51.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T23:22:47.929Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DashBoard.cs",
-              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\DashBoard.cs",
-              "RelativeDocumentMoniker": "TallerCapas\\DashBoard.cs",
-              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\DashBoard.cs",
-              "RelativeToolTip": "TallerCapas\\DashBoard.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAqwJMAAAAAAAAAAAAAAA==",
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Login.cs",
+              "RelativeDocumentMoniker": "TallerCapas\\Login.cs",
+              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Login.cs",
+              "RelativeToolTip": "TallerCapas\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAhwA0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T04:05:24.605Z",
+              "WhenOpened": "2025-11-23T23:22:52.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CDNota.cs",
-              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaDatos\\CDNota.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\CDNota.cs",
-              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaDatos\\CDNota.cs",
-              "RelativeToolTip": "CapaDatos\\CDNota.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABNAAAAAAAAAA==",
+              "Title": "Signup.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Signup.cs",
+              "RelativeDocumentMoniker": "TallerCapas\\Signup.cs",
+              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Signup.cs [Design]",
+              "RelativeToolTip": "TallerCapas\\Signup.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T01:27:32.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CNNota.cs",
-              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaNegocio\\CNNota.cs",
-              "RelativeDocumentMoniker": "CapaNegocio\\CNNota.cs",
-              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaNegocio\\CNNota.cs",
-              "RelativeToolTip": "CapaNegocio\\CNNota.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T03:55:11.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T23:09:14.834Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "CDMateria.cs",
-              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaDatos\\CDMateria.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\CDMateria.cs",
-              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaDatos\\CDMateria.cs",
-              "RelativeToolTip": "CapaDatos\\CDMateria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Program.cs",
+              "RelativeDocumentMoniker": "TallerCapas\\Program.cs",
+              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Program.cs",
+              "RelativeToolTip": "TallerCapas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T16:03:00.571Z",
+              "WhenOpened": "2025-11-23T21:19:54.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Asig\u0026Tipo.cs",
+              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Asig\u0026Tipo.cs",
+              "RelativeDocumentMoniker": "TallerCapas\\Asig\u0026Tipo.cs",
+              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Asig\u0026Tipo.cs",
+              "RelativeToolTip": "TallerCapas\\Asig\u0026Tipo.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAD4v60AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T21:12:02.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "DashBoard.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\DashBoard.Designer.cs",
-              "RelativeDocumentMoniker": "TallerCapas\\DashBoard.Designer.cs",
-              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\DashBoard.Designer.cs",
-              "RelativeToolTip": "TallerCapas\\DashBoard.Designer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAkwBYAAAAIAAAAAAAAAA==",
+              "Title": "Materia.cs",
+              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Materia.cs",
+              "RelativeDocumentMoniker": "TallerCapas\\Materia.cs",
+              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Materia.cs",
+              "RelativeToolTip": "TallerCapas\\Materia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T04:06:18.265Z",
+              "WhenOpened": "2025-11-23T20:03:04.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Log in.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Log in.cs",
-              "RelativeDocumentMoniker": "TallerCapas\\Log in.cs",
-              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Log in.cs [Design]",
-              "RelativeToolTip": "TallerCapas\\Log in.cs [Design]",
+              "Title": "DashBoard.cs",
+              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\DashBoard.cs",
+              "RelativeDocumentMoniker": "TallerCapas\\DashBoard.cs",
+              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\DashBoard.cs",
+              "RelativeToolTip": "TallerCapas\\DashBoard.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAIA9wFQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T04:03:24.649Z"
+              "WhenOpened": "2025-11-23T21:06:29.627Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Log in.cs",
-              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Log in.cs",
-              "RelativeDocumentMoniker": "TallerCapas\\Log in.cs",
-              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Log in.cs",
-              "RelativeToolTip": "TallerCapas\\Log in.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAD4vygAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Asig\u0026Tipo.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Asig\u0026Tipo.cs",
+              "RelativeDocumentMoniker": "TallerCapas\\Asig\u0026Tipo.cs",
+              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\TallerCapas\\Asig\u0026Tipo.cs [Design]",
+              "RelativeToolTip": "TallerCapas\\Asig\u0026Tipo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T04:03:26.918Z"
+              "WhenOpened": "2025-11-23T19:38:55.221Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CDMateria.cs",
+              "DocumentMoniker": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaDatos\\CDMateria.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDMateria.cs",
+              "ToolTip": "C:\\Users\\soyr1\\OneDrive\\Documents\\GitHub\\Grupo-D\\CapaDatos\\CDMateria.cs",
+              "RelativeToolTip": "CapaDatos\\CDMateria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T20:21:39.353Z",
+              "EditorCaption": ""
             }
           ]
         }
