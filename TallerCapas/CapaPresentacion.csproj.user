@@ -4,13 +4,16 @@
     <Compile Update="DashBoard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form1.cs">
+    <Compile Update="Asig&amp;Tipo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Log in.cs">
+    <Compile Update="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Sign up.cs">
+    <Compile Update="Materia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Signup.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

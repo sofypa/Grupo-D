@@ -1,4 +1,6 @@
+using CapaPresentacion;
 using Microsoft.VisualBasic.Logging;
+using Proyecto;
 
 namespace TallerCapas
 {
@@ -13,7 +15,7 @@ namespace TallerCapas
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Proyecto.Form1());
+            Application.Run(new Form1());
         }
     }
 }

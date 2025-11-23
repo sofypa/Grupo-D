@@ -1,13 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CapaDatos;
 
 namespace CapaNegocio
 {
-    internal class CNLogIn
+    public class CNLogIn
     {
-      
+        private readonly CDLogin cd = new CDLogin();
+
+        public bool ValidarCredenciales(string email, string password)
+        {
+            return cd.ValidarCredenciales(email, password);
+        }
+
+        // Firma corregida: recibimos idUsuario (cédula), nombre, correo y contraseña
+        public bool CrearUsuario(string idUsuario, string nombre, string correo, string password)
+        {
+            return cd.CrearUsuario(idUsuario, nombre, correo, password);
+        }
     }
 }

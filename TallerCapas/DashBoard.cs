@@ -1,5 +1,6 @@
 using CapaEntidad;
 using CapaNegocio;
+using CapaPresentacion;
 using System.Data;
 
 namespace TallerCapas
@@ -75,9 +76,13 @@ namespace TallerCapas
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Prueba.Form1 ventanaNota = new Prueba.Form1();
-            ventanaNota.Show();
+            // Si quieres que Materia sea modal (no se puede interactuar con Dashboard mientras)
             this.Hide();
+            using (var frm = new Materia())
+            {
+                frm.ShowDialog();
+            }
+            this.Show();
         }
 
 
@@ -141,8 +146,8 @@ namespace TallerCapas
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            
-        
+
+
             // Recarga los datos
             DataTable dt = cnDashboard.ObtenerDatosDashboard();
 
@@ -154,6 +159,11 @@ namespace TallerCapas
                 dv.RowFilter = $"Grupo = '{grupoSeleccionado.Replace("'", "''")}'";
 
             dgvDashboard.DataSource = dv;
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
