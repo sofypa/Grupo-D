@@ -7,7 +7,7 @@ namespace CapasDatos
 {
     public class CDMateria
     {
-        string CadenaConexion = @"Server=POWELLSITO-PC\SQLEXPRESS;Database=ProyectoNotasBD;Trusted_Connection=True;TrustServerCertificate=True;";
+        string CadenaConexion = @"Server=tcp:hpa3calcnotas.database.windows.net,1433;Initial Catalog=ProyectoNotasBD;Persist Security Info=False;User ID=calcadmin;Password=Calculadora123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
         // Obtener todas las materias
         public DataTable ObtenerMaterias()

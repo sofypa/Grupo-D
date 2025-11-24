@@ -165,6 +165,13 @@ namespace TallerCapas
         {
 
         }
+
+        private void btnCategoria_Click(object sender, EventArgs e)
+        {
+            CategoriasEvaluacion ventana = new CategoriasEvaluacion();
+            ventana.Show();
+            this.Hide();
+        }
     }
 }
 

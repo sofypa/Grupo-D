@@ -8,5 +8,9 @@ namespace CapaEntidad
 {
     public class CECategoria
     {
+        public string IdCategoria { get; set; }
+        public string CodigoMateria { get; set; }
+        public string NombreCategoria { get; set; }
+        public decimal Ponderacion { get; set; }
     }
 }

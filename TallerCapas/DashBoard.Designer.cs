@@ -37,7 +37,7 @@
             button5 = new Button();
             btnActualizar = new Button();
             btnNotas = new Button();
-            button2 = new Button();
+            btnCategoria = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvDashboard).BeginInit();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -133,15 +133,16 @@
             btnNotas.UseVisualStyleBackColor = true;
             btnNotas.Click += button1_Click_1;
             // 
-            // button2
+            // btnCategoria
             // 
-            button2.Location = new Point(44, 472);
-            button2.Margin = new Padding(2);
-            button2.Name = "button2";
-            button2.Size = new Size(205, 29);
-            button2.TabIndex = 24;
-            button2.Text = "Categorias";
-            button2.UseVisualStyleBackColor = true;
+            btnCategoria.Location = new Point(44, 472);
+            btnCategoria.Margin = new Padding(2);
+            btnCategoria.Name = "btnCategoria";
+            btnCategoria.Size = new Size(205, 29);
+            btnCategoria.TabIndex = 24;
+            btnCategoria.Text = "Categorias";
+            btnCategoria.UseVisualStyleBackColor = true;
+            btnCategoria.Click += btnCategoria_Click;
             // 
             // DashBoard
             // 
@@ -149,7 +150,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(788, 573);
-            Controls.Add(button2);
+            Controls.Add(btnCategoria);
             Controls.Add(btnNotas);
             Controls.Add(btnActualizar);
             Controls.Add(button5);
@@ -177,6 +178,6 @@
         private Button button5;
         private Button btnActualizar;
         private Button btnNotas;
-        private Button button2;
+        private Button btnCategoria;
     }
 }
