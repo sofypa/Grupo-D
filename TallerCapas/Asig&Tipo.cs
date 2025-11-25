@@ -156,14 +156,7 @@ namespace Prueba
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            CENota cENota = new CENota();
-            cENota.grupo = txtGrupo.Text;
-            cENota.calificacion = (double)numNota.Value;
-
-            CNNota cNNota = new CNNota();
-
-            cNNota.crearNota(cENota);
-            MessageBox.Show("Nota creada.");
+            
 
         }
 

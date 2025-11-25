@@ -29,32 +29,41 @@
         private void InitializeComponent()
         {
             numNota = new NumericUpDown();
-            label16 = new Label();
-            label15 = new Label();
-            cbCategoria = new ComboBox();
+            lbl12 = new Label();
+            lblCategoria = new Label();
+            cbCategoriaG = new ComboBox();
             label14 = new Label();
-            pictureBox6 = new PictureBox();
             btnVolverDashboard = new Button();
             label1 = new Label();
             pictureBox3 = new PictureBox();
             btnElimMat = new Button();
             btnEditMat = new Button();
             btnRegisMat = new Button();
-            dataGridView1 = new DataGridView();
+            dgvNotas = new DataGridView();
             cmbMaterias = new ComboBox();
             lblMateria = new Label();
-            label2 = new Label();
-            textBox1 = new TextBox();
+            lblComentario = new Label();
+            txtComentario = new TextBox();
             pictureBox1 = new PictureBox();
             label3 = new Label();
-            btnGuardar = new Button();
+            btnLimpiar = new Button();
+            lblPromedio = new Label();
+            btnAtras = new Button();
+            pictureBox6 = new PictureBox();
+            label2 = new Label();
+            pictureBox2 = new PictureBox();
             label4 = new Label();
-            button1 = new Button();
+            cmbFiltroMateria = new ComboBox();
+            label5 = new Label();
+            cmbFiltroCateg = new ComboBox();
+            btnFiltrar = new Button();
+            btnPDFNotas = new Button();
             ((System.ComponentModel.ISupportInitialize)numNota).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvNotas).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // numNota
@@ -64,36 +73,36 @@
             numNota.Size = new Size(103, 27);
             numNota.TabIndex = 54;
             // 
-            // label16
+            // lbl12
             // 
-            label16.AutoSize = true;
-            label16.BackColor = Color.White;
-            label16.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label16.Location = new Point(142, 227);
-            label16.Name = "label16";
-            label16.Size = new Size(100, 23);
-            label16.TabIndex = 53;
-            label16.Text = "Calificación:";
+            lbl12.AutoSize = true;
+            lbl12.BackColor = Color.White;
+            lbl12.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl12.Location = new Point(142, 227);
+            lbl12.Name = "lbl12";
+            lbl12.Size = new Size(100, 23);
+            lbl12.TabIndex = 53;
+            lbl12.Text = "Calificación:";
             // 
-            // label15
+            // lblCategoria
             // 
-            label15.AutoSize = true;
-            label15.BackColor = Color.White;
-            label15.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label15.Location = new Point(154, 185);
-            label15.Name = "label15";
-            label15.Size = new Size(88, 23);
-            label15.TabIndex = 52;
-            label15.Text = "Categoría:";
+            lblCategoria.AutoSize = true;
+            lblCategoria.BackColor = Color.White;
+            lblCategoria.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblCategoria.Location = new Point(154, 185);
+            lblCategoria.Name = "lblCategoria";
+            lblCategoria.Size = new Size(88, 23);
+            lblCategoria.TabIndex = 52;
+            lblCategoria.Text = "Categoría:";
             // 
-            // cbCategoria
+            // cbCategoriaG
             // 
-            cbCategoria.FormattingEnabled = true;
-            cbCategoria.Location = new Point(256, 180);
-            cbCategoria.Margin = new Padding(3, 4, 3, 4);
-            cbCategoria.Name = "cbCategoria";
-            cbCategoria.Size = new Size(182, 28);
-            cbCategoria.TabIndex = 51;
+            cbCategoriaG.FormattingEnabled = true;
+            cbCategoriaG.Location = new Point(256, 180);
+            cbCategoriaG.Margin = new Padding(3, 4, 3, 4);
+            cbCategoriaG.Name = "cbCategoriaG";
+            cbCategoriaG.Size = new Size(182, 28);
+            cbCategoriaG.TabIndex = 51;
             // 
             // label14
             // 
@@ -102,19 +111,9 @@
             label14.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label14.Location = new Point(129, 106);
             label14.Name = "label14";
-            label14.Size = new Size(171, 23);
+            label14.Size = new Size(134, 23);
             label14.TabIndex = 49;
-            label14.Text = "Categorías de Notas";
-            // 
-            // pictureBox6
-            // 
-            pictureBox6.BackColor = Color.White;
-            pictureBox6.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox6.Location = new Point(119, 120);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(370, 250);
-            pictureBox6.TabIndex = 48;
-            pictureBox6.TabStop = false;
+            label14.Text = "Registrar Notas";
             // 
             // btnVolverDashboard
             // 
@@ -164,6 +163,7 @@
             btnElimMat.TabIndex = 65;
             btnElimMat.Text = "Eliminar Nota";
             btnElimMat.UseVisualStyleBackColor = false;
+            btnElimMat.Click += btnElimMat_Click;
             // 
             // btnEditMat
             // 
@@ -178,6 +178,7 @@
             btnEditMat.TabIndex = 64;
             btnEditMat.Text = "Editar Nota";
             btnEditMat.UseVisualStyleBackColor = false;
+            btnEditMat.Click += btnEditMat_Click;
             // 
             // btnRegisMat
             // 
@@ -192,15 +193,17 @@
             btnRegisMat.TabIndex = 63;
             btnRegisMat.Text = "Registrar Nota";
             btnRegisMat.UseVisualStyleBackColor = false;
+            btnRegisMat.Click += btnRegisMat_Click;
             // 
-            // dataGridView1
+            // dgvNotas
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(60, 466);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(678, 198);
-            dataGridView1.TabIndex = 67;
+            dgvNotas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvNotas.Location = new Point(60, 548);
+            dgvNotas.Name = "dgvNotas";
+            dgvNotas.RowHeadersWidth = 51;
+            dgvNotas.Size = new Size(678, 198);
+            dgvNotas.TabIndex = 67;
+            dgvNotas.CellClick += dgvNotas_CellClick;
             // 
             // cmbMaterias
             // 
@@ -221,23 +224,23 @@
             lblMateria.TabIndex = 69;
             lblMateria.Text = "Materia:";
             // 
-            // label2
+            // lblComentario
             // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.White;
-            label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(138, 269);
-            label2.Name = "label2";
-            label2.Size = new Size(104, 23);
-            label2.TabIndex = 70;
-            label2.Text = "Comentario:";
+            lblComentario.AutoSize = true;
+            lblComentario.BackColor = Color.White;
+            lblComentario.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblComentario.Location = new Point(138, 269);
+            lblComentario.Name = "lblComentario";
+            lblComentario.Size = new Size(104, 23);
+            lblComentario.TabIndex = 70;
+            lblComentario.Text = "Comentario:";
             // 
-            // textBox1
+            // txtComentario
             // 
-            textBox1.Location = new Point(256, 269);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(182, 27);
-            textBox1.TabIndex = 71;
+            txtComentario.Location = new Point(256, 269);
+            txtComentario.Name = "txtComentario";
+            txtComentario.Size = new Size(182, 27);
+            txtComentario.TabIndex = 71;
             // 
             // pictureBox1
             // 
@@ -260,55 +263,166 @@
             label3.TabIndex = 74;
             label3.Text = "Notas de la Materia";
             // 
-            // btnGuardar
+            // btnLimpiar
             // 
-            btnGuardar.BackColor = Color.CornflowerBlue;
-            btnGuardar.FlatStyle = FlatStyle.Popup;
-            btnGuardar.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnGuardar.ForeColor = SystemColors.Window;
-            btnGuardar.Location = new Point(234, 323);
-            btnGuardar.Margin = new Padding(3, 4, 3, 4);
-            btnGuardar.Name = "btnGuardar";
-            btnGuardar.Size = new Size(125, 27);
-            btnGuardar.TabIndex = 75;
-            btnGuardar.Text = "Limpiar";
-            btnGuardar.UseVisualStyleBackColor = false;
+            btnLimpiar.BackColor = Color.CornflowerBlue;
+            btnLimpiar.FlatStyle = FlatStyle.Popup;
+            btnLimpiar.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLimpiar.ForeColor = SystemColors.Window;
+            btnLimpiar.Location = new Point(234, 323);
+            btnLimpiar.Margin = new Padding(3, 4, 3, 4);
+            btnLimpiar.Name = "btnLimpiar";
+            btnLimpiar.Size = new Size(125, 27);
+            btnLimpiar.TabIndex = 75;
+            btnLimpiar.Text = "Limpiar";
+            btnLimpiar.UseVisualStyleBackColor = false;
+            btnLimpiar.Click += btnLimpiar_Click;
+            // 
+            // lblPromedio
+            // 
+            lblPromedio.AutoSize = true;
+            lblPromedio.Font = new Font("Gill Sans MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblPromedio.Location = new Point(70, 768);
+            lblPromedio.Name = "lblPromedio";
+            lblPromedio.Size = new Size(226, 29);
+            lblPromedio.TabIndex = 76;
+            lblPromedio.Text = "Promedio calculado: ...";
+            // 
+            // btnAtras
+            // 
+            btnAtras.Location = new Point(12, 78);
+            btnAtras.Name = "btnAtras";
+            btnAtras.Size = new Size(96, 29);
+            btnAtras.TabIndex = 77;
+            btnAtras.Text = "ir atrás";
+            btnAtras.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.BackColor = Color.White;
+            pictureBox6.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox6.Location = new Point(119, 120);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(370, 250);
+            pictureBox6.TabIndex = 48;
+            pictureBox6.TabStop = false;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.White;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(70, 455);
+            label2.Name = "label2";
+            label2.Size = new Size(129, 20);
+            label2.TabIndex = 80;
+            label2.Text = "Filtros de la tabla";
+            label2.Click += label2_Click;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = Color.White;
+            pictureBox2.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox2.Location = new Point(60, 469);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(678, 54);
+            pictureBox2.TabIndex = 79;
+            pictureBox2.TabStop = false;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Gill Sans MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(60, 706);
+            label4.BackColor = Color.White;
+            label4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(70, 490);
             label4.Name = "label4";
-            label4.Size = new Size(226, 29);
-            label4.TabIndex = 76;
-            label4.Text = "Promedio calculado: ...";
+            label4.Size = new Size(63, 20);
+            label4.TabIndex = 84;
+            label4.Text = "Materia:";
             // 
-            // button1
+            // cmbFiltroMateria
             // 
-            button1.Location = new Point(12, 78);
-            button1.Name = "button1";
-            button1.Size = new Size(96, 29);
-            button1.TabIndex = 77;
-            button1.Text = "ir atrás";
-            button1.UseVisualStyleBackColor = true;
+            cmbFiltroMateria.FormattingEnabled = true;
+            cmbFiltroMateria.Location = new Point(139, 485);
+            cmbFiltroMateria.Name = "cmbFiltroMateria";
+            cmbFiltroMateria.Size = new Size(182, 28);
+            cmbFiltroMateria.TabIndex = 83;
+            cmbFiltroMateria.SelectedIndexChanged += cmbFiltroMateria_SelectedIndexChanged;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = Color.White;
+            label5.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Location = new Point(342, 490);
+            label5.Name = "label5";
+            label5.Size = new Size(77, 20);
+            label5.TabIndex = 82;
+            label5.Text = "Categoría:";
+            // 
+            // cmbFiltroCateg
+            // 
+            cmbFiltroCateg.FormattingEnabled = true;
+            cmbFiltroCateg.Location = new Point(425, 485);
+            cmbFiltroCateg.Margin = new Padding(3, 4, 3, 4);
+            cmbFiltroCateg.Name = "cmbFiltroCateg";
+            cmbFiltroCateg.Size = new Size(182, 28);
+            cmbFiltroCateg.TabIndex = 81;
+            cmbFiltroCateg.SelectedIndexChanged += cmbFiltroCateg_SelectedIndexChanged;
+            // 
+            // btnFiltrar
+            // 
+            btnFiltrar.BackColor = Color.White;
+            btnFiltrar.FlatStyle = FlatStyle.Popup;
+            btnFiltrar.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnFiltrar.ForeColor = Color.Black;
+            btnFiltrar.Location = new Point(629, 483);
+            btnFiltrar.Margin = new Padding(3, 4, 3, 4);
+            btnFiltrar.Name = "btnFiltrar";
+            btnFiltrar.Size = new Size(90, 27);
+            btnFiltrar.TabIndex = 85;
+            btnFiltrar.Text = "Filtrar";
+            btnFiltrar.UseVisualStyleBackColor = false;
+            btnFiltrar.Click += btnFiltrar_Click;
+            // 
+            // btnPDFNotas
+            // 
+            btnPDFNotas.BackColor = Color.CornflowerBlue;
+            btnPDFNotas.FlatStyle = FlatStyle.Popup;
+            btnPDFNotas.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnPDFNotas.ForeColor = SystemColors.Window;
+            btnPDFNotas.Location = new Point(338, 817);
+            btnPDFNotas.Margin = new Padding(3, 4, 3, 4);
+            btnPDFNotas.Name = "btnPDFNotas";
+            btnPDFNotas.Size = new Size(151, 41);
+            btnPDFNotas.TabIndex = 86;
+            btnPDFNotas.Text = "PDF de Notas";
+            btnPDFNotas.UseVisualStyleBackColor = false;
             // 
             // Notas
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(796, 764);
-            Controls.Add(button1);
+            ClientSize = new Size(796, 888);
+            Controls.Add(btnPDFNotas);
+            Controls.Add(btnFiltrar);
             Controls.Add(label4);
-            Controls.Add(btnGuardar);
+            Controls.Add(cmbFiltroMateria);
+            Controls.Add(label5);
+            Controls.Add(cmbFiltroCateg);
+            Controls.Add(label2);
+            Controls.Add(pictureBox2);
+            Controls.Add(btnAtras);
+            Controls.Add(lblPromedio);
+            Controls.Add(btnLimpiar);
             Controls.Add(label3);
             Controls.Add(pictureBox1);
-            Controls.Add(textBox1);
-            Controls.Add(label2);
+            Controls.Add(txtComentario);
+            Controls.Add(lblComentario);
             Controls.Add(lblMateria);
             Controls.Add(cmbMaterias);
-            Controls.Add(dataGridView1);
+            Controls.Add(dgvNotas);
             Controls.Add(btnElimMat);
             Controls.Add(btnEditMat);
             Controls.Add(btnRegisMat);
@@ -316,18 +430,20 @@
             Controls.Add(label1);
             Controls.Add(pictureBox3);
             Controls.Add(numNota);
-            Controls.Add(label16);
-            Controls.Add(label15);
-            Controls.Add(cbCategoria);
+            Controls.Add(lbl12);
+            Controls.Add(lblCategoria);
+            Controls.Add(cbCategoriaG);
             Controls.Add(label14);
             Controls.Add(pictureBox6);
             Name = "Notas";
             Text = "Notas";
+            Load += Notas_Load;
             ((System.ComponentModel.ISupportInitialize)numNota).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvNotas).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -335,26 +451,34 @@
         #endregion
 
         private NumericUpDown numNota;
-        private Label label16;
-        private Label label15;
-        private ComboBox cbCategoria;
+        private Label lbl12;
+        private Label lblCategoria;
+        private ComboBox cbCategoriaG;
         private Label label14;
-        private PictureBox pictureBox6;
         private Button btnVolverDashboard;
         private Label label1;
         private PictureBox pictureBox3;
         private Button btnElimMat;
         private Button btnEditMat;
         private Button btnRegisMat;
-        private DataGridView dataGridView1;
+        private DataGridView dgvNotas;
         private ComboBox cmbMaterias;
         private Label lblMateria;
-        private Label label2;
-        private TextBox textBox1;
+        private Label lblComentario;
+        private TextBox txtComentario;
         private PictureBox pictureBox1;
         private Label label3;
-        private Button btnGuardar;
+        private Button btnLimpiar;
+        private Label lblPromedio;
+        private Button btnAtras;
+        private PictureBox pictureBox6;
+        private Label label2;
+        private PictureBox pictureBox2;
         private Label label4;
-        private Button button1;
+        private ComboBox cmbFiltroMateria;
+        private Label label5;
+        private ComboBox cmbFiltroCateg;
+        private Button btnFiltrar;
+        private Button btnPDFNotas;
     }
 }

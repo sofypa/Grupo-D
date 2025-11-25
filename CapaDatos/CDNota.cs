@@ -37,11 +37,22 @@ namespace CapaDatos
                     cmd.Parameters.AddWithValue("@grupo", n.grupo);
 
                     cn.Open();
-                    return cmd.ExecuteNonQuery() > 0;
+                    int result = cmd.ExecuteNonQuery();  // Ejecutar la consulta
+
+                    if (result > 0)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        MessageBox.Show("No se insertó ninguna fila en la base de datos.");
+                        return false;
+                    }
                 }
             }
-            catch
+            catch (Exception ex)
             {
+                MessageBox.Show("Error en InsertarNota: " + ex.Message);  // Mostrar el error específico
                 return false;
             }
         }
@@ -106,50 +117,50 @@ namespace CapaDatos
         // -------------------------------------------------------------
         // OBTENER LISTA DE VISTA (CENotaVista)
         // -------------------------------------------------------------
-        public List<CENotaVista> ObtenerNotasVista(string codigoMateria, string idUsuario)
+        public List<CENotaVista> ObtenerNotasVista(string codigoMateria, string idUsuario, string idCategoria)
         {
             List<CENotaVista> lista = new List<CENotaVista>();
 
-            string sql = @"
-                SELECT 
-                    c.nombre_categoria AS Categoria,
-                    n.calificacion AS Nota,
-                    n.comentario AS Comentario
-                FROM nota n
-                INNER JOIN categoria c ON n.id_categoria = c.id_categoria
-                WHERE n.codigo_materia = @materia AND n.id_usuario = @usuario
-                ORDER BY c.nombre_categoria";
+            string sql = @"SELECT id_nota, Materia, Categoria, Nota, Comentario
+               FROM vista_notas
+               WHERE id_usuario = @usuario";
+
+            if (!string.IsNullOrEmpty(codigoMateria))
+                sql += " AND codigo_materia = @materia";   // ahora sí existe
+            if (!string.IsNullOrEmpty(idCategoria))
+                sql += " AND id_categoria = @categoria";   // ahora sí existe
+
 
             using (SqlConnection cn = new SqlConnection(CadenaConexion))
             using (SqlCommand cmd = new SqlCommand(sql, cn))
             {
-                cmd.Parameters.AddWithValue("@materia", codigoMateria);
                 cmd.Parameters.AddWithValue("@usuario", idUsuario);
+                if (!string.IsNullOrEmpty(codigoMateria))
+                    cmd.Parameters.AddWithValue("@materia", codigoMateria);
+                if (!string.IsNullOrEmpty(idCategoria))
+                    cmd.Parameters.AddWithValue("@categoria", idCategoria);
 
-                try
+                cn.Open();
+                using (SqlDataReader dr = cmd.ExecuteReader())
                 {
-                    cn.Open();
-                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    while (dr.Read())
                     {
-                        while (dr.Read())
+                        lista.Add(new CENotaVista
                         {
-                            lista.Add(new CENotaVista
-                            {
-                                categoria = dr["Categoria"].ToString(),
-                                Nota = Convert.ToDecimal(dr["Nota"]),
-                                comentario = dr["Comentario"].ToString()
-                            });
-                        }
+                            id_nota = Convert.ToInt32(dr["id_nota"]),
+                            materia = dr["Materia"].ToString(),
+                            categoria = dr["Categoria"].ToString(),
+                            Nota = Convert.ToDecimal(dr["Nota"]),
+                            comentario = dr["Comentario"].ToString()
+                        });
                     }
-                }
-                catch
-                {
-                    return null;
                 }
             }
 
             return lista;
-        }
+}
+
+
         // -------------------------------------------------------------
         // PROMEDIO PONDERADO REAL
         // -------------------------------------------------------------

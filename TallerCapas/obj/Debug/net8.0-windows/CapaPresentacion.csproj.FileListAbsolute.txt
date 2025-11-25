@@ -246,3 +246,7 @@ C:\Users\soyr1\OneDrive\Documents\GitHub\Grupo-D\TallerCapas\obj\Debug\net8.0-wi
 C:\Users\soyr1\OneDrive\Documents\GitHub\Grupo-D\TallerCapas\obj\Debug\net8.0-windows\ref\CapaPresentacion.dll
 C:\Users\soyr1\OneDrive\Documents\GitHub\Grupo-D\TallerCapas\obj\Debug\net8.0-windows\CapaPresentacion.Materia.resources
 C:\Users\soyr1\OneDrive\Documents\GitHub\Grupo-D\TallerCapas\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\obj\Debug\net8.0-windows\CapaPresentacion.CategoriasEvaluacion.resources
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\obj\Debug\net8.0-windows\CapaPresentacion.Materia.resources
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\obj\Debug\net8.0-windows\CapaPresentacion.Notas.resources
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
