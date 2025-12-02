@@ -20,8 +20,8 @@ namespace CapaDatos
         public bool InsertarNota(CENota n)
         {
             const string sql = @"
-                INSERT INTO nota (id_usuario, codigo_materia, id_categoria, calificacion, comentario, fecha_registro, grupo)
-                VALUES (@usuario, @materia, @categoria, @calificacion, @comentario, @fecha, @grupo)";
+                INSERT INTO nota (id_usuario, codigo_materia, id_categoria, calificacion, total_posible, comentario, fecha_registro)
+                VALUES (@usuario, @materia, @categoria, @calificacion, @total, @comentario, @fecha)";
 
             try
             {
@@ -32,9 +32,9 @@ namespace CapaDatos
                     cmd.Parameters.AddWithValue("@materia", n.codigo_materia);
                     cmd.Parameters.AddWithValue("@categoria", n.id_categoria);
                     cmd.Parameters.AddWithValue("@calificacion", n.calificacion);
+                    cmd.Parameters.AddWithValue("@total", n.total_posible);
                     cmd.Parameters.AddWithValue("@comentario", n.comentario ?? "");
                     cmd.Parameters.AddWithValue("@fecha", n.fecha_registro);
-                    cmd.Parameters.AddWithValue("@grupo", n.grupo);
 
                     cn.Open();
                     int result = cmd.ExecuteNonQuery();  // Ejecutar la consulta
@@ -66,6 +66,7 @@ namespace CapaDatos
                 UPDATE nota SET
                     id_categoria = @categoria,
                     calificacion = @calificacion,
+                    total_posible = @total,
                     comentario = @comentario
                 WHERE id_nota = @idNota";
 
@@ -77,6 +78,7 @@ namespace CapaDatos
                     cmd.Parameters.AddWithValue("@idNota", n.id_nota);
                     cmd.Parameters.AddWithValue("@categoria", n.id_categoria);
                     cmd.Parameters.AddWithValue("@calificacion", n.calificacion);
+                    cmd.Parameters.AddWithValue("@total", n.total_posible);
                     cmd.Parameters.AddWithValue("@comentario", n.comentario ?? "");
 
                     cn.Open();
@@ -121,7 +123,7 @@ namespace CapaDatos
         {
             List<CENotaVista> lista = new List<CENotaVista>();
 
-            string sql = @"SELECT id_nota, Materia, Categoria, Nota, Comentario
+            string sql = @"SELECT id_nota, Materia, Categoria, Nota, total_posible, Comentario
                FROM vista_notas
                WHERE id_usuario = @usuario";
 
@@ -151,6 +153,7 @@ namespace CapaDatos
                             materia = dr["Materia"].ToString(),
                             categoria = dr["Categoria"].ToString(),
                             Nota = Convert.ToDecimal(dr["Nota"]),
+                            total_posible = Convert.ToInt32(dr["total_posible"]),
                             comentario = dr["Comentario"].ToString()
                         });
                     }
@@ -158,11 +161,11 @@ namespace CapaDatos
             }
 
             return lista;
-}
+        }
 
 
         // -------------------------------------------------------------
-        // PROMEDIO PONDERADO REAL
+        // PROMEDIO PONDERADO POR MATERIA
         // -------------------------------------------------------------
         public decimal ObtenerPromedioMateria(string codigoMateria, string idUsuario)
         {
@@ -193,6 +196,73 @@ namespace CapaDatos
             {
                 return 0;
             }
+        }
+        // -------------------------------------------------------------
+        // PROMEDIO PONDERADO POR CATEGORIA DE MATERIA
+        // -------------------------------------------------------------
+        public decimal ObtenerPromedioPorCategoria(string codigoMateria, string idCategoria, string idUsuario)
+        {
+            const string sql = @"
+                SELECT 
+                    SUM(n.calificacion / n.total_posible * 100.0 * c.ponderacion / 100.0)
+                FROM nota n
+                JOIN categoria c 
+                    ON n.id_categoria = c.id_categoria
+                    AND n.codigo_materia = c.codigo_materia
+                WHERE n.codigo_materia = @materia
+                  AND n.id_usuario = @usuario
+                  AND n.id_categoria = @categoria;
+            ";
+
+            try
+            {
+                using SqlConnection cn = new SqlConnection(CadenaConexion);
+                using SqlCommand cmd = new SqlCommand(sql, cn);
+
+                cmd.Parameters.AddWithValue("@materia", codigoMateria);
+                cmd.Parameters.AddWithValue("@usuario", idUsuario);
+                cmd.Parameters.AddWithValue("@categoria", idCategoria);
+
+                cn.Open();
+                object result = cmd.ExecuteScalar();
+
+                return result == DBNull.Value ? 0 : Math.Round(Convert.ToDecimal(result), 2);
+            }
+            catch
+            {
+                return 0;
+            }
+        }
+
+        public DataTable ObtenerNotasVistaDataTable(string codigoMateria, string idUsuario, string idCategoria)
+        {
+            DataTable dt = new DataTable();
+
+            string sql = @"SELECT Materia, Categoria, Comentario, Nota, total_posible
+                   FROM vista_notas
+                   WHERE id_usuario = @usuario";
+
+            if (!string.IsNullOrEmpty(codigoMateria))
+                sql += " AND codigo_materia = @materia";
+            if (!string.IsNullOrEmpty(idCategoria))
+                sql += " AND id_categoria = @categoria";
+
+            using (SqlConnection cn = new SqlConnection(CadenaConexion))
+            using (SqlCommand cmd = new SqlCommand(sql, cn))
+            {
+                cmd.Parameters.AddWithValue("@usuario", idUsuario);
+                if (!string.IsNullOrEmpty(codigoMateria))
+                    cmd.Parameters.AddWithValue("@materia", codigoMateria);
+                if (!string.IsNullOrEmpty(idCategoria))
+                    cmd.Parameters.AddWithValue("@categoria", idCategoria);
+
+                using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+                {
+                    da.Fill(dt);
+                }
+            }
+
+            return dt;
         }
     }
 }

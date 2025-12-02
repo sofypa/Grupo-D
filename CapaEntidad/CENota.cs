@@ -9,7 +9,7 @@
         public decimal calificacion { get; set; }
         public DateTime fecha_registro { get; set; }
         public string comentario { get; set; }
-        public string grupo { get; set; }
+        public int total_posible { get; set; }
     }
 }
 

@@ -7,14 +7,9 @@ namespace CapaNegocio
     {
         CDDashboard cdDashboard = new CDDashboard();
 
-        public DataTable ObtenerGrupos()
-        {
-            return cdDashboard.ObtenerGrupos();
-        }
-
         public DataTable ObtenerDatosDashboard()
         {
-            return cdDashboard.ObtenerDatosDashboard();
+            return cdDashboard.ObtenerInstituciones();
         }
 
     }

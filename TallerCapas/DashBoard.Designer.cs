@@ -32,14 +32,12 @@
             btnMateria = new Button();
             label1 = new Label();
             dgvDashboard = new DataGridView();
-            comboGrupo = new ComboBox();
             groupBox2 = new GroupBox();
             button5 = new Button();
             btnActualizar = new Button();
             btnNotas = new Button();
             btnCategoria = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvDashboard).BeginInit();
-            groupBox2.SuspendLayout();
             SuspendLayout();
             // 
             // ofdFoto
@@ -80,18 +78,8 @@
             dgvDashboard.Size = new Size(690, 213);
             dgvDashboard.TabIndex = 15;
             // 
-            // comboGrupo
-            // 
-            comboGrupo.FormattingEnabled = true;
-            comboGrupo.Location = new Point(15, 37);
-            comboGrupo.Name = "comboGrupo";
-            comboGrupo.Size = new Size(174, 28);
-            comboGrupo.TabIndex = 19;
-            comboGrupo.SelectedIndexChanged += comboGrupo_SelectedIndexChanged;
-            // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(comboGrupo);
             groupBox2.Location = new Point(44, 143);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(250, 86);
@@ -163,7 +151,6 @@
             Text = "Form1";
             Load += FrmDashboard_Load;
             ((System.ComponentModel.ISupportInitialize)dgvDashboard).EndInit();
-            groupBox2.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -173,7 +160,6 @@
         private Button btnMateria;
         private Label label1;
         private DataGridView dgvDashboard;
-        private ComboBox comboGrupo;
         private GroupBox groupBox2;
         private Button button5;
         private Button btnActualizar;

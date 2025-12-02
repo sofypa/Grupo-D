@@ -7,6 +7,8 @@
         public string categoria { get; set; }
         public decimal Nota { get; set; }
         public string comentario { get; set; }
+        public int total_posible { get; set; }
+        public string NotaTexto => $"{Nota}/{total_posible}";
     }
 
 }

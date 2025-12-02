@@ -22,8 +22,10 @@ namespace CapaNegocio
                     throw new Exception("Seleccione una materia.");
                 if (string.IsNullOrWhiteSpace(nota.id_categoria))
                     throw new Exception("Seleccione una categoría.");
-                if (nota.calificacion < 0 || nota.calificacion > 100)
-                    throw new Exception("La calificación debe estar entre 0 y 100.");
+                if (nota.total_posible <= 0 || nota.total_posible > 100)
+                    throw new Exception("El total posible debe estar entre 1 y 100.");
+                if (nota.calificacion < 0 || nota.calificacion > nota.total_posible)
+                    throw new Exception($"La calificación debe estar entre 0 y {nota.total_posible}.");
 
                 return cdNota.InsertarNota(nota);
             }
@@ -41,8 +43,10 @@ namespace CapaNegocio
                 throw new Exception("ID de nota inválido.");
             if (string.IsNullOrWhiteSpace(nota.id_categoria))
                 throw new Exception("Seleccione una categoría.");
-            if (nota.calificacion < 0 || nota.calificacion > 100)
-                throw new Exception("La calificación debe estar entre 0 y 100.");
+            if (nota.total_posible <= 0 || nota.total_posible > 100)
+                throw new Exception("El total posible debe estar entre 1 y 100.");
+            if (nota.calificacion < 0 || nota.calificacion > nota.total_posible)
+                throw new Exception($"La calificación debe estar entre 0 y {nota.total_posible}.");
 
             return cdNota.EditarNota(nota);
         }
@@ -63,6 +67,10 @@ namespace CapaNegocio
         {
             return cdNota.ObtenerPromedioMateria(codigoMateria, idUsuario);
         }
+        public decimal CalcularPromedioPorCategoria(string codigoMateria, string idCategoria, string idUsuario)
+        {
+            return cdNota.ObtenerPromedioPorCategoria(codigoMateria, idCategoria, idUsuario);
+        }
         public DataTable ObtenerMaterias()
         {
             return cdMateria.ListarMateriasDataTable(); // o cdMateria.ObtenerMaterias()
@@ -71,6 +79,10 @@ namespace CapaNegocio
         public DataTable ObtenerCategorias()
         {
             return cdCategoria.ObtenerCatalogoCategorias(); // tu método existente
+        }
+        public DataTable ObtenerNotasVistaReportes(string codigoMateria, string idUsuario, string idCategoria)
+        {
+            return cdNota.ObtenerNotasVistaDataTable(codigoMateria, idUsuario, idCategoria);
         }
     }
 }

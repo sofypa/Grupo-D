@@ -58,19 +58,26 @@
             cmbFiltroCateg = new ComboBox();
             btnFiltrar = new Button();
             btnPDFNotas = new Button();
+            numTotPosible = new NumericUpDown();
+            label6 = new Label();
+            label7 = new Label();
+            label8 = new Label();
+            pictureBox4 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)numNota).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvNotas).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numTotPosible).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             SuspendLayout();
             // 
             // numNota
             // 
-            numNota.Location = new Point(256, 223);
+            numNota.Location = new Point(256, 229);
             numNota.Name = "numNota";
-            numNota.Size = new Size(103, 27);
+            numNota.Size = new Size(72, 27);
             numNota.TabIndex = 54;
             // 
             // lbl12
@@ -78,7 +85,7 @@
             lbl12.AutoSize = true;
             lbl12.BackColor = Color.White;
             lbl12.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl12.Location = new Point(142, 227);
+            lbl12.Location = new Point(142, 233);
             lbl12.Name = "lbl12";
             lbl12.Size = new Size(100, 23);
             lbl12.TabIndex = 53;
@@ -89,7 +96,7 @@
             lblCategoria.AutoSize = true;
             lblCategoria.BackColor = Color.White;
             lblCategoria.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblCategoria.Location = new Point(154, 185);
+            lblCategoria.Location = new Point(154, 189);
             lblCategoria.Name = "lblCategoria";
             lblCategoria.Size = new Size(88, 23);
             lblCategoria.TabIndex = 52;
@@ -98,7 +105,7 @@
             // cbCategoriaG
             // 
             cbCategoriaG.FormattingEnabled = true;
-            cbCategoriaG.Location = new Point(256, 180);
+            cbCategoriaG.Location = new Point(256, 184);
             cbCategoriaG.Margin = new Padding(3, 4, 3, 4);
             cbCategoriaG.Name = "cbCategoriaG";
             cbCategoriaG.Size = new Size(182, 28);
@@ -198,17 +205,17 @@
             // dgvNotas
             // 
             dgvNotas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvNotas.Location = new Point(60, 548);
+            dgvNotas.Location = new Point(79, 563);
             dgvNotas.Name = "dgvNotas";
             dgvNotas.RowHeadersWidth = 51;
-            dgvNotas.Size = new Size(678, 198);
+            dgvNotas.Size = new Size(631, 198);
             dgvNotas.TabIndex = 67;
             dgvNotas.CellClick += dgvNotas_CellClick;
             // 
             // cmbMaterias
             // 
             cmbMaterias.FormattingEnabled = true;
-            cmbMaterias.Location = new Point(256, 137);
+            cmbMaterias.Location = new Point(256, 141);
             cmbMaterias.Name = "cmbMaterias";
             cmbMaterias.Size = new Size(182, 28);
             cmbMaterias.TabIndex = 68;
@@ -218,7 +225,7 @@
             lblMateria.AutoSize = true;
             lblMateria.BackColor = Color.White;
             lblMateria.Font = new Font("Segoe UI", 9.75F);
-            lblMateria.Location = new Point(170, 142);
+            lblMateria.Location = new Point(170, 146);
             lblMateria.Name = "lblMateria";
             lblMateria.Size = new Size(72, 23);
             lblMateria.TabIndex = 69;
@@ -229,7 +236,7 @@
             lblComentario.AutoSize = true;
             lblComentario.BackColor = Color.White;
             lblComentario.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblComentario.Location = new Point(138, 269);
+            lblComentario.Location = new Point(138, 292);
             lblComentario.Name = "lblComentario";
             lblComentario.Size = new Size(104, 23);
             lblComentario.TabIndex = 70;
@@ -237,7 +244,7 @@
             // 
             // txtComentario
             // 
-            txtComentario.Location = new Point(256, 269);
+            txtComentario.Location = new Point(256, 292);
             txtComentario.Name = "txtComentario";
             txtComentario.Size = new Size(182, 27);
             txtComentario.TabIndex = 71;
@@ -245,9 +252,9 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.CornflowerBlue;
-            pictureBox1.Location = new Point(60, 420);
+            pictureBox1.Location = new Point(50, 420);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(678, 10);
+            pictureBox1.Size = new Size(698, 10);
             pictureBox1.TabIndex = 73;
             pictureBox1.TabStop = false;
             // 
@@ -269,7 +276,7 @@
             btnLimpiar.FlatStyle = FlatStyle.Popup;
             btnLimpiar.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLimpiar.ForeColor = SystemColors.Window;
-            btnLimpiar.Location = new Point(234, 323);
+            btnLimpiar.Location = new Point(233, 339);
             btnLimpiar.Margin = new Padding(3, 4, 3, 4);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(125, 27);
@@ -282,7 +289,7 @@
             // 
             lblPromedio.AutoSize = true;
             lblPromedio.Font = new Font("Gill Sans MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblPromedio.Location = new Point(70, 768);
+            lblPromedio.Location = new Point(79, 780);
             lblPromedio.Name = "lblPromedio";
             lblPromedio.Size = new Size(226, 29);
             lblPromedio.TabIndex = 76;
@@ -303,7 +310,7 @@
             pictureBox6.BorderStyle = BorderStyle.FixedSingle;
             pictureBox6.Location = new Point(119, 120);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(370, 250);
+            pictureBox6.Size = new Size(370, 258);
             pictureBox6.TabIndex = 48;
             pictureBox6.TabStop = false;
             // 
@@ -312,7 +319,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.White;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(70, 455);
+            label2.Location = new Point(71, 468);
             label2.Name = "label2";
             label2.Size = new Size(129, 20);
             label2.TabIndex = 80;
@@ -323,7 +330,7 @@
             // 
             pictureBox2.BackColor = Color.White;
             pictureBox2.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox2.Location = new Point(60, 469);
+            pictureBox2.Location = new Point(61, 482);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(678, 54);
             pictureBox2.TabIndex = 79;
@@ -334,7 +341,7 @@
             label4.AutoSize = true;
             label4.BackColor = Color.White;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(70, 490);
+            label4.Location = new Point(71, 503);
             label4.Name = "label4";
             label4.Size = new Size(63, 20);
             label4.TabIndex = 84;
@@ -343,9 +350,9 @@
             // cmbFiltroMateria
             // 
             cmbFiltroMateria.FormattingEnabled = true;
-            cmbFiltroMateria.Location = new Point(139, 485);
+            cmbFiltroMateria.Location = new Point(140, 498);
             cmbFiltroMateria.Name = "cmbFiltroMateria";
-            cmbFiltroMateria.Size = new Size(182, 28);
+            cmbFiltroMateria.Size = new Size(226, 28);
             cmbFiltroMateria.TabIndex = 83;
             cmbFiltroMateria.SelectedIndexChanged += cmbFiltroMateria_SelectedIndexChanged;
             // 
@@ -354,7 +361,7 @@
             label5.AutoSize = true;
             label5.BackColor = Color.White;
             label5.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(342, 490);
+            label5.Location = new Point(378, 503);
             label5.Name = "label5";
             label5.Size = new Size(77, 20);
             label5.TabIndex = 82;
@@ -363,10 +370,10 @@
             // cmbFiltroCateg
             // 
             cmbFiltroCateg.FormattingEnabled = true;
-            cmbFiltroCateg.Location = new Point(425, 485);
+            cmbFiltroCateg.Location = new Point(461, 498);
             cmbFiltroCateg.Margin = new Padding(3, 4, 3, 4);
             cmbFiltroCateg.Name = "cmbFiltroCateg";
-            cmbFiltroCateg.Size = new Size(182, 28);
+            cmbFiltroCateg.Size = new Size(113, 28);
             cmbFiltroCateg.TabIndex = 81;
             cmbFiltroCateg.SelectedIndexChanged += cmbFiltroCateg_SelectedIndexChanged;
             // 
@@ -376,12 +383,12 @@
             btnFiltrar.FlatStyle = FlatStyle.Popup;
             btnFiltrar.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnFiltrar.ForeColor = Color.Black;
-            btnFiltrar.Location = new Point(629, 483);
+            btnFiltrar.Location = new Point(593, 496);
             btnFiltrar.Margin = new Padding(3, 4, 3, 4);
             btnFiltrar.Name = "btnFiltrar";
-            btnFiltrar.Size = new Size(90, 27);
+            btnFiltrar.Size = new Size(132, 27);
             btnFiltrar.TabIndex = 85;
-            btnFiltrar.Text = "Filtrar";
+            btnFiltrar.Text = "Limpiar Filtros";
             btnFiltrar.UseVisualStyleBackColor = false;
             btnFiltrar.Click += btnFiltrar_Click;
             // 
@@ -391,20 +398,75 @@
             btnPDFNotas.FlatStyle = FlatStyle.Popup;
             btnPDFNotas.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnPDFNotas.ForeColor = SystemColors.Window;
-            btnPDFNotas.Location = new Point(338, 817);
+            btnPDFNotas.Location = new Point(339, 830);
             btnPDFNotas.Margin = new Padding(3, 4, 3, 4);
             btnPDFNotas.Name = "btnPDFNotas";
             btnPDFNotas.Size = new Size(151, 41);
             btnPDFNotas.TabIndex = 86;
             btnPDFNotas.Text = "PDF de Notas";
             btnPDFNotas.UseVisualStyleBackColor = false;
+            btnPDFNotas.Click += btnPDFNotas_Click;
+            // 
+            // numTotPosible
+            // 
+            numTotPosible.Location = new Point(363, 229);
+            numTotPosible.Name = "numTotPosible";
+            numTotPosible.Size = new Size(72, 27);
+            numTotPosible.TabIndex = 87;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.BackColor = Color.White;
+            label6.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Location = new Point(334, 225);
+            label6.Name = "label6";
+            label6.Size = new Size(23, 31);
+            label6.TabIndex = 88;
+            label6.Text = "/";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.BackColor = Color.White;
+            label7.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.Location = new Point(260, 259);
+            label7.Name = "label7";
+            label7.Size = new Size(61, 17);
+            label7.TabIndex = 89;
+            label7.Text = "obtenido";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = Color.White;
+            label8.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label8.Location = new Point(376, 259);
+            label8.Name = "label8";
+            label8.Size = new Size(34, 17);
+            label8.TabIndex = 90;
+            label8.Text = "total";
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.BackColor = Color.White;
+            pictureBox4.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox4.Location = new Point(50, 456);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(698, 433);
+            pictureBox4.TabIndex = 91;
+            pictureBox4.TabStop = false;
             // 
             // Notas
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(796, 888);
+            ClientSize = new Size(796, 911);
+            Controls.Add(label8);
+            Controls.Add(label7);
+            Controls.Add(label6);
+            Controls.Add(numTotPosible);
             Controls.Add(btnPDFNotas);
             Controls.Add(btnFiltrar);
             Controls.Add(label4);
@@ -435,6 +497,7 @@
             Controls.Add(cbCategoriaG);
             Controls.Add(label14);
             Controls.Add(pictureBox6);
+            Controls.Add(pictureBox4);
             Name = "Notas";
             Text = "Notas";
             Load += Notas_Load;
@@ -444,6 +507,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numTotPosible).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -480,5 +545,10 @@
         private ComboBox cmbFiltroCateg;
         private Button btnFiltrar;
         private Button btnPDFNotas;
+        private NumericUpDown numTotPosible;
+        private Label label6;
+        private Label label7;
+        private Label label8;
+        private PictureBox pictureBox4;
     }
 }
