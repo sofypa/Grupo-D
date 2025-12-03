@@ -16,5 +16,9 @@ namespace CapaNegocio
         {
             return cd.CrearUsuario(idUsuario, nombre, correo, password);
         }
+        public string ObtenerNombrePorCorreo(string correo)
+        {
+            return cd.ObtenerNombrePorCorreo(correo);
+        }
     }
 }

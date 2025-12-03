@@ -6,6 +6,7 @@ namespace Proyecto
 {
     public partial class Form1 : Form
     {
+        private CNLogIn cnLogin = new CNLogIn();
         public Form1()
         {
             InitializeComponent();
@@ -44,6 +45,7 @@ namespace Proyecto
         {
             string email = textBox1.Text.Trim();
             string password = textBox2.Text;
+            string nombreUsuario = cnLogin.ObtenerNombrePorCorreo(email);
 
             if (!EsEmailValido(email))
             {
@@ -69,7 +71,7 @@ namespace Proyecto
             }
 
             // Login exitoso
-            TallerCapas.DashBoard ventana = new TallerCapas.DashBoard();
+            TallerCapas.ResumenAcadémico ventana = new TallerCapas.ResumenAcadémico(nombreUsuario);
             ventana.Show();
             this.Hide();
         }

@@ -15,12 +15,14 @@ namespace CapaPresentacion
 {
     public partial class CategoriasEvaluacion : Form
     {
-        //  private string codigoMateria;
+        private readonly string _nombreUsuario;
 
-        public CategoriasEvaluacion()
+
+        public CategoriasEvaluacion(string nombreUsuario)
         {
             InitializeComponent();
-            // codigoMateria = codigoMateriaRecibido;
+            _nombreUsuario = nombreUsuario;
+
 
         }
         private void label1_Click(object sender, EventArgs e)
@@ -160,7 +162,7 @@ namespace CapaPresentacion
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TallerCapas.DashBoard ventana = new TallerCapas.DashBoard();
+            TallerCapas.ResumenAcadémico ventana = new TallerCapas.ResumenAcadémico(_nombreUsuario);
             ventana.Show();
             this.Hide();
         }

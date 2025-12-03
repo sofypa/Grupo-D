@@ -46,29 +46,32 @@
             cmbMaterias = new ComboBox();
             label1 = new Label();
             btnVolverDashboard = new Button();
+            pictureBox3 = new PictureBox();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)numClases).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numCreditos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numLabs).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // numClases
             // 
-            numClases.Location = new Point(236, 258);
+            numClases.Location = new Point(258, 285);
             numClases.Name = "numClases";
             numClases.Size = new Size(67, 27);
             numClases.TabIndex = 60;
             // 
             // numCreditos
             // 
-            numCreditos.Location = new Point(93, 219);
+            numCreditos.Location = new Point(116, 247);
             numCreditos.Name = "numCreditos";
             numCreditos.Size = new Size(67, 27);
             numCreditos.TabIndex = 59;
             // 
             // numLabs
             // 
-            numLabs.Location = new Point(93, 258);
+            numLabs.Location = new Point(113, 285);
             numLabs.Name = "numLabs";
             numLabs.Size = new Size(67, 27);
             numLabs.TabIndex = 58;
@@ -77,7 +80,7 @@
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label10.Location = new Point(169, 258);
+            label10.Location = new Point(191, 286);
             label10.Name = "label10";
             label10.Size = new Size(61, 23);
             label10.TabIndex = 57;
@@ -87,7 +90,7 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.Location = new Point(42, 258);
+            label9.Location = new Point(61, 286);
             label9.Name = "label9";
             label9.Size = new Size(48, 23);
             label9.TabIndex = 56;
@@ -97,7 +100,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.Location = new Point(24, 220);
+            label8.Location = new Point(33, 248);
             label8.Name = "label8";
             label8.Size = new Size(77, 23);
             label8.TabIndex = 55;
@@ -107,7 +110,7 @@
             // 
             txtbNombre.BackColor = Color.AliceBlue;
             txtbNombre.BorderStyle = BorderStyle.FixedSingle;
-            txtbNombre.Location = new Point(93, 181);
+            txtbNombre.Location = new Point(113, 209);
             txtbNombre.Margin = new Padding(3, 4, 3, 4);
             txtbNombre.Name = "txtbNombre";
             txtbNombre.Size = new Size(212, 27);
@@ -117,7 +120,7 @@
             // 
             txtbCodigo.BackColor = Color.AliceBlue;
             txtbCodigo.BorderStyle = BorderStyle.FixedSingle;
-            txtbCodigo.Location = new Point(93, 142);
+            txtbCodigo.Location = new Point(113, 169);
             txtbCodigo.Margin = new Padding(3, 4, 3, 4);
             txtbCodigo.Name = "txtbCodigo";
             txtbCodigo.Size = new Size(212, 27);
@@ -127,7 +130,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(24, 181);
+            label7.Location = new Point(32, 209);
             label7.Name = "label7";
             label7.Size = new Size(77, 23);
             label7.TabIndex = 52;
@@ -137,7 +140,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(24, 142);
+            label6.Location = new Point(41, 170);
             label6.Name = "label6";
             label6.Size = new Size(69, 23);
             label6.TabIndex = 51;
@@ -149,7 +152,7 @@
             btnRegisMat.FlatStyle = FlatStyle.Popup;
             btnRegisMat.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnRegisMat.ForeColor = SystemColors.Window;
-            btnRegisMat.Location = new Point(333, 128);
+            btnRegisMat.Location = new Point(347, 156);
             btnRegisMat.Margin = new Padding(3, 4, 3, 4);
             btnRegisMat.Name = "btnRegisMat";
             btnRegisMat.Size = new Size(161, 53);
@@ -162,9 +165,9 @@
             // 
             pictureBox4.BackColor = Color.White;
             pictureBox4.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox4.Location = new Point(14, 113);
+            pictureBox4.Location = new Point(25, 141);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(301, 241);
+            pictureBox4.Size = new Size(308, 251);
             pictureBox4.TabIndex = 48;
             pictureBox4.TabStop = false;
             // 
@@ -174,7 +177,7 @@
             btnEditMat.FlatStyle = FlatStyle.Popup;
             btnEditMat.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnEditMat.ForeColor = SystemColors.Window;
-            btnEditMat.Location = new Point(333, 205);
+            btnEditMat.Location = new Point(347, 233);
             btnEditMat.Margin = new Padding(3, 4, 3, 4);
             btnEditMat.Name = "btnEditMat";
             btnEditMat.Size = new Size(161, 53);
@@ -189,7 +192,7 @@
             btnElimMat.FlatStyle = FlatStyle.Popup;
             btnElimMat.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnElimMat.ForeColor = SystemColors.Window;
-            btnElimMat.Location = new Point(333, 291);
+            btnElimMat.Location = new Point(347, 319);
             btnElimMat.Margin = new Padding(3, 4, 3, 4);
             btnElimMat.Name = "btnElimMat";
             btnElimMat.Size = new Size(161, 53);
@@ -204,7 +207,7 @@
             btnLimpiar.FlatStyle = FlatStyle.Popup;
             btnLimpiar.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLimpiar.ForeColor = SystemColors.Window;
-            btnLimpiar.Location = new Point(126, 311);
+            btnLimpiar.Location = new Point(136, 337);
             btnLimpiar.Margin = new Padding(3, 4, 3, 4);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(81, 33);
@@ -216,17 +219,19 @@
             // cmbMaterias
             // 
             cmbMaterias.FormattingEnabled = true;
-            cmbMaterias.Location = new Point(14, 78);
+            cmbMaterias.Location = new Point(192, 98);
             cmbMaterias.Name = "cmbMaterias";
-            cmbMaterias.Size = new Size(151, 28);
+            cmbMaterias.Size = new Size(305, 28);
             cmbMaterias.TabIndex = 64;
             cmbMaterias.SelectedIndexChanged += cmbMaterias_SelectedIndexChanged;
             // 
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.MidnightBlue;
             label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 37);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(24, 21);
             label1.Name = "label1";
             label1.Size = new Size(119, 38);
             label1.TabIndex = 65;
@@ -238,20 +243,39 @@
             btnVolverDashboard.FlatStyle = FlatStyle.Popup;
             btnVolverDashboard.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnVolverDashboard.ForeColor = SystemColors.WindowText;
-            btnVolverDashboard.Location = new Point(333, 46);
+            btnVolverDashboard.Location = new Point(360, 25);
             btnVolverDashboard.Margin = new Padding(3, 4, 3, 4);
             btnVolverDashboard.Name = "btnVolverDashboard";
-            btnVolverDashboard.Size = new Size(159, 31);
+            btnVolverDashboard.Size = new Size(132, 31);
             btnVolverDashboard.TabIndex = 66;
-            btnVolverDashboard.Text = "Volver a Dashboard";
+            btnVolverDashboard.Text = "Volver a Inicio";
             btnVolverDashboard.UseVisualStyleBackColor = false;
             btnVolverDashboard.Click += btnVolverDashboard_Click;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackColor = Color.MidnightBlue;
+            pictureBox3.Location = new Point(-115, 0);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(714, 72);
+            pictureBox3.TabIndex = 67;
+            pictureBox3.TabStop = false;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(29, 102);
+            label2.Name = "label2";
+            label2.Size = new Size(160, 20);
+            label2.TabIndex = 68;
+            label2.Text = "Materias almacenadas:";
             // 
             // Materia
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(513, 404);
+            ClientSize = new Size(540, 420);
+            Controls.Add(label2);
             Controls.Add(btnVolverDashboard);
             Controls.Add(label1);
             Controls.Add(cmbMaterias);
@@ -270,6 +294,7 @@
             Controls.Add(label6);
             Controls.Add(btnRegisMat);
             Controls.Add(pictureBox4);
+            Controls.Add(pictureBox3);
             Name = "Materia";
             Text = "Materia";
             Load += Materia_Load;
@@ -277,6 +302,7 @@
             ((System.ComponentModel.ISupportInitialize)numCreditos).EndInit();
             ((System.ComponentModel.ISupportInitialize)numLabs).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -301,5 +327,7 @@
         private ComboBox cmbMaterias;
         private Label label1;
         private Button btnVolverDashboard;
+        private PictureBox pictureBox3;
+        private Label label2;
     }
 }

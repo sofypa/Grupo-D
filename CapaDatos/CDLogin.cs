@@ -85,6 +85,18 @@ namespace CapaDatos
                 return false;
             }
         }
+        public string ObtenerNombrePorCorreo(string correo)
+        {
+            const string sql = "SELECT nombre_usuario FROM usuario WHERE correo_usuario = @correo";
+            using (SqlConnection cn = new SqlConnection(CadenaConexion))
+            using (SqlCommand cmd = new SqlCommand(sql, cn))
+            {
+                cmd.Parameters.AddWithValue("@correo", correo.Trim().ToLowerInvariant());
+                cn.Open();
+                var result = cmd.ExecuteScalar();
+                return result?.ToString() ?? "";
+            }
+        }
 
     }
 }

@@ -339,7 +339,6 @@ namespace CapaPresentacion
                 LocalReport report = new LocalReport();
                 string rutaRDLC = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ReportesNotas", "InformeNotas.rdlc");
 
-                MessageBox.Show("Ruta buscada: " + rutaRDLC);
 
                 if (!File.Exists(rutaRDLC))
                 {
@@ -383,6 +382,9 @@ namespace CapaPresentacion
             }
         }
 
-
+        private void btnVolverDashboard_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

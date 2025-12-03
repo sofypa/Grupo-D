@@ -48,7 +48,6 @@
             label3 = new Label();
             btnLimpiar = new Button();
             lblPromedio = new Label();
-            btnAtras = new Button();
             pictureBox6 = new PictureBox();
             label2 = new Label();
             pictureBox2 = new PictureBox();
@@ -131,10 +130,11 @@
             btnVolverDashboard.Location = new Point(625, 24);
             btnVolverDashboard.Margin = new Padding(3, 4, 3, 4);
             btnVolverDashboard.Name = "btnVolverDashboard";
-            btnVolverDashboard.Size = new Size(159, 31);
+            btnVolverDashboard.Size = new Size(133, 31);
             btnVolverDashboard.TabIndex = 57;
-            btnVolverDashboard.Text = "Volver a Dashboard";
+            btnVolverDashboard.Text = "Volver a Inicio";
             btnVolverDashboard.UseVisualStyleBackColor = false;
+            btnVolverDashboard.Click += btnVolverDashboard_Click;
             // 
             // label1
             // 
@@ -204,6 +204,7 @@
             // 
             // dgvNotas
             // 
+            dgvNotas.BackgroundColor = Color.AliceBlue;
             dgvNotas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvNotas.Location = new Point(79, 563);
             dgvNotas.Name = "dgvNotas";
@@ -295,15 +296,6 @@
             lblPromedio.TabIndex = 76;
             lblPromedio.Text = "Promedio calculado: ...";
             // 
-            // btnAtras
-            // 
-            btnAtras.Location = new Point(12, 78);
-            btnAtras.Name = "btnAtras";
-            btnAtras.Size = new Size(96, 29);
-            btnAtras.TabIndex = 77;
-            btnAtras.Text = "ir atrás";
-            btnAtras.UseVisualStyleBackColor = true;
-            // 
             // pictureBox6
             // 
             pictureBox6.BackColor = Color.White;
@@ -394,16 +386,16 @@
             // 
             // btnPDFNotas
             // 
-            btnPDFNotas.BackColor = Color.CornflowerBlue;
+            btnPDFNotas.BackColor = Color.MidnightBlue;
             btnPDFNotas.FlatStyle = FlatStyle.Popup;
             btnPDFNotas.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnPDFNotas.ForeColor = SystemColors.Window;
-            btnPDFNotas.Location = new Point(339, 830);
+            btnPDFNotas.Location = new Point(312, 831);
             btnPDFNotas.Margin = new Padding(3, 4, 3, 4);
             btnPDFNotas.Name = "btnPDFNotas";
-            btnPDFNotas.Size = new Size(151, 41);
+            btnPDFNotas.Size = new Size(194, 41);
             btnPDFNotas.TabIndex = 86;
-            btnPDFNotas.Text = "PDF de Notas";
+            btnPDFNotas.Text = "Generar PDF de Notas";
             btnPDFNotas.UseVisualStyleBackColor = false;
             btnPDFNotas.Click += btnPDFNotas_Click;
             // 
@@ -475,7 +467,6 @@
             Controls.Add(cmbFiltroCateg);
             Controls.Add(label2);
             Controls.Add(pictureBox2);
-            Controls.Add(btnAtras);
             Controls.Add(lblPromedio);
             Controls.Add(btnLimpiar);
             Controls.Add(label3);
@@ -535,7 +526,6 @@
         private Label label3;
         private Button btnLimpiar;
         private Label lblPromedio;
-        private Button btnAtras;
         private PictureBox pictureBox6;
         private Label label2;
         private PictureBox pictureBox2;

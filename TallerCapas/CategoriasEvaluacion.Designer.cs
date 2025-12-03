@@ -188,12 +188,13 @@
             button1.BackColor = Color.Transparent;
             button1.BackgroundImageLayout = ImageLayout.None;
             button1.FlatStyle = FlatStyle.System;
-            button1.Location = new Point(3, 75);
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(489, 23);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(51, 31);
+            button1.Size = new Size(115, 31);
             button1.TabIndex = 46;
-            button1.Text = "Atrás";
+            button1.Text = "Volver a Inicio";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 

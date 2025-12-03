@@ -81,6 +81,11 @@ namespace CapaPresentacion
                 if (creado)
                 {
                     MessageBox.Show("Usuario creado con éxito.");
+                    // Abrir el dashboard con el nombre del usuario
+                    var ventana = new TallerCapas.ResumenAcadémico(nombre);
+                    ventana.Show();
+                    this.Hide();
+
 
                 }
                 else

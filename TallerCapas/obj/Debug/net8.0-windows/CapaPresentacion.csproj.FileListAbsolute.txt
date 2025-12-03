@@ -152,8 +152,6 @@ C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\bin\Debug\net8.0-w
 C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\obj\Debug\net8.0-windows\CapaPresentacion.csproj.AssemblyReference.cache
 C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\obj\Debug\net8.0-windows\CapaPresentacion..Designer.resources
 C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\obj\Debug\net8.0-windows\CapaPresentacion..resources
-C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\obj\Debug\net8.0-windows\TallerCapas.DashBoard.resources
-C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\obj\Debug\net8.0-windows\Prueba.Form1.resources
 C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\obj\Debug\net8.0-windows\CapaPresentacion.Sign_up.resources
 C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\obj\Debug\net8.0-windows\CapaPresentacion.csproj.GenerateResource.cache
 C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\obj\Debug\net8.0-windows\CapaPresentacion.GeneratedMSBuildEditorConfig.editorconfig
@@ -323,3 +321,4 @@ C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\bin\Debug\net8.0-w
 C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\bin\Debug\net8.0-windows\ReportesNotas\InformeNotas.rdlc
+C:\Users\sofie\OneDrive\Documentos\GitHub\Grupo-D\TallerCapas\obj\Debug\net8.0-windows\TallerCapas.ResumenAcadémico.resources
